@@ -1,3 +1,30 @@
 {
-  "pages":["Change/First/First","Change/Mine/Mine","Change/Timetable/Timetable"]
+  "pages":["Change/First/First","Change/Mine/Mine","Change/Timetable/Timetable"],
+
+  "tabBar":{
+    "list":[
+      {
+        "text":"首页",
+        "pagePath":"Change/First/First",
+        "iconPath":"images/icon/first.png",
+        "selectedIconPath":"images/icon/first-selected.png"
+      },
+      {
+        "text": "课程表",
+        "pagePath": "Change/Timetable/Timetable",
+        "iconPath": "images/icon/time.png",
+        "selectedIconPath": "images/icon/time-selected.png"
+      },
+      {
+        "text": "我",
+        "pagePath": "Change/Mine/Mine",
+        "iconPath": "images/icon/me.png",
+        "selectedIconPath": "images/icon/me-selected.png"
+      }
+    ]
+  },
+  "window":{
+    "navigationBarBackgroundColor":"#fff",
+    "navigationBarTextStyle": "black"        
+  }
 }
