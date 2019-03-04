@@ -37,10 +37,12 @@ Page({
         var accuracy = res.accuracy
 
         that.setData({
-          longitude: longitude,
-          latitude: latitude,
-          speed: speed,
-          accuracy: accuracy
+          latitude: res.latitude,
+          longitude: res.longitude,
+          markers: [{
+            latitude: res.latitude,
+            longitude: res.longitude
+          }]
         })
       },
       //定位失败回调
@@ -50,12 +52,10 @@ Page({
           icon: "none"
         })
       },
-
       complete: function () {
         //隐藏定位中信息进度
         wx.hideLoading()
       }
-
     })
   },
 
