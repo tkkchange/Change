@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
@@ -49,7 +49,14 @@
 				{
 					"id": -1,
 					"name": "日历",
-					"pathName": "Change/Calendar/Calendar"
+					"pathName": "Change/Calendar/Calendar",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "map",
+					"pathName": "Change/Map/Map",
+					"scene": null
 				}
 			]
 		}
