@@ -1,5 +1,5 @@
 {
-  "pages":["Change/First/First","Change/Mine/Mine","Change/Timetable/Timetable","Change/ConfirmConsume/ConfirmConsume","Change/Calendar/Calendar"],
+  "pages":["Change/Calendar/Calendar","Change/Mine/Mine","Change/Timetable/Timetable","Change/ConfirmConsume/ConfirmConsume","Change/First/First"],
 
   "tabBar":{
     "list":[
@@ -26,10 +26,10 @@
   "window":{
     "navigationBarBackgroundColor":"#fff",
     "navigationBarTextStyle": "black"        
-  } ,
-  "plugins": {//日历
+  },
+  "plugins": {
     "calendar": {
-      "version": "1.1.0",
+      "version": "1.1.3",
       "provider": "wx92c68dae5a8bb046"
     }
   }

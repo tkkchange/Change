@@ -1,6 +1,7 @@
+<!--index.wxml-->
 <view class="container-fluid">
    
-    <text class="title">日历</text>
+    <text class="title" class="main">日历</text>
     <view class="demo4">
         <calendar 
         weeks-type="cn" 
@@ -11,7 +12,8 @@
         board-style="demo4-board" 
         days-color="{{demo4_days_style}}" 
         />
+        
     </view>
-   
-    
+    <view>
+   <wux-button block type="balanced" bindtap='returntimetable'>课程表</wux-button></view>
 </view>
