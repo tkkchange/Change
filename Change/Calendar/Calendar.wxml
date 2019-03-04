@@ -1,19 +1,22 @@
 <!--index.wxml-->
 <view class="container-fluid">
    
-    <text class="title" class="main">日历</text>
+    <text class="page__title" class="main">日历</text>
     <view class="demo4">
-        <calendar 
+        <calendar  
         weeks-type="cn" 
         cell-size="30" 
-        next="{{false}}" prev="{{false}}" show-more-days="{{true}}"
+        next="{{true}}" prev="{{true}}" show-more-days="{{true}}"
         calendar-style="demo4-calendar" 
         header-style="demo4-header" 
         board-style="demo4-board" 
         days-color="{{demo4_days_style}}" 
         />
-        
     </view>
+    <wux-white-space size="large" />
+    <view class="main">当前时间：{{time}}</view>
+
     <view>
-   <wux-button block type="balanced" bindtap='returntimetable'>课程表</wux-button></view>
+     <wux-button block type="balanced" bindtap='returntimetable' class='btm_btn'>课程表</wux-button>
+    </view>
 </view>
