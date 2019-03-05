@@ -37,12 +37,25 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
 					"name": "First",
 					"pathName": "Change/First/First",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "日历",
+					"pathName": "Change/Calendar/Calendar",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "map",
+					"pathName": "Change/Map/Map",
 					"scene": null
 				}
 			]

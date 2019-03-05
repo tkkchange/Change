@@ -3,6 +3,7 @@
   "usingComponents": {
     "calendar": "plugin://calendar/calendar",
     "wux-icon": "../../dist/icon/index",
-    "wux-button": "../../dist/button/index"
+    "wux-button": "../../dist/button/index",
+    "wux-white-space": "../../dist/white-space/index"
   }
 }
