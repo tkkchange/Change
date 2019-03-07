@@ -1,0 +1,11 @@
+<view>
+   <view class="lesson">
+     <image src="../../images/First/1.jpg"></image>
+     <view class="lesson_info">
+       <view class="lesson_title">XXX舞蹈房
+           <text>\n大时代设计大赛看来</text>
+       </view>
+       <view class="lesson_date">有效期至：YYYY-MM-DD</view>
+     </view>
+   </view>
+</view>
