@@ -1,5 +1,5 @@
 {
-  "pages":["Change/Calendar/Calendar","Change/First/First","Change/Mine/Mine","Change/Timetable/Timetable","Change/ConfirmConsume/ConfirmConsume"],
+  "pages":["Change/SubShop/SubShop","Change/Calendar/Calendar","Change/First/First","Change/Mine/Mine","Change/Timetable/Timetable","Change/ConfirmConsume/ConfirmConsume"],
   "tabBar":{
     "list":[
       {
