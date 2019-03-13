@@ -1,0 +1,25 @@
+<view>
+    <view class="title">
+       可用优惠<text>(6张)</text>
+    </view>
+  <view>
+    <view class="discount">
+       <view class="number">8.8折</view>
+       <view class="center">
+          <text class="center_title">XXX舞蹈房</text>
+          <text class="center_date">有效期至2019-01-14</text>
+       </view>
+       <view>
+         <checkbox/>
+         <view class="rule"  bindtap="clickme">
+           使用规则
+         </view>
+       </view>
+    
+    </view>
+    <view hidden="{{hiddenName}}" class="hideview">
+       <text>可到了拉萨\n几点开始垃圾大理石空间的</text>
+    </view>
+ </view>
+ 
+</view>

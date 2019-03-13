@@ -1,7 +1,21 @@
 .main {
+  color: #59518d;
   display: flex;
   align-items: center;
   justify-content: center;  
   width: 100%;
   height: 100%;
+}
+.btm_btn{
+ width:100%;
+ position:fixed; 
+ bottom:0; 
+}
+.demo4-board {
+    color: #59518d;
+    font-weight: bold;
+}
+.demo4-header {
+    color: #59518d;
+    font-weight: bold;
 }
