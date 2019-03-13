@@ -1,0 +1,7 @@
+<view >
+  <view >
+    <wux-cell is-link url="/Change/Mine/Mine" thumb="https://wux.cdn.cloverstd.com/logo.png" title="标题文字1" extra="说明文字1"></wux-cell>
+    <wux-cell is-link url="/Change/Calendar/Calendar" thumb="https://wux.cdn.cloverstd.com/logo.png" title="标题文字2" extra="说明文字2"></wux-cell> 
+    
+  </view>
+</view>
