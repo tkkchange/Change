@@ -37,11 +37,12 @@
 			"list": []
 		},
 		"miniprogram": {
-<<<<<<< HEAD
 			"current": 4,
-=======
+
 			"current": 3,
->>>>>>> 4a5eec44e3075f47d43e63c608acf1cb9fb9bb49
+
+			"current": 3,
+
 			"list": [
 				{
 					"id": -1,
@@ -66,7 +67,6 @@
 				{
 					"id": -1,
 					"name": "map",
-<<<<<<< HEAD
 					"pathName": "Change/Map/Map",
 					"query": "",
 					"scene": null
@@ -83,9 +83,7 @@
 					"name": "mytimetable",
 					"pathName": "Change/Timetable/Timetable",
 					"scene": null
-=======
-					"pathName": "Change/Map/Map"
->>>>>>> 4a5eec44e3075f47d43e63c608acf1cb9fb9bb49
+					"pathName":"Change/Map/Map"
 				}
 			]
 		}
