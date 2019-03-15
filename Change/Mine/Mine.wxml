@@ -1,0 +1,89 @@
+<view>
+  <!-- view1 -->
+  <view class="container">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <view class="userinfo">
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">\n {{userInfo.nickName}}</text>
+      </view>
+      <view class="userinfo-modify">
+        <button class='userinfo-button' bindtap="bindViewTap">修改资料</button>
+      </view>
+    </block>
+  </view>
+
+  <!-- view2 -->
+  <view class='layout_horizontal'>
+
+    <view style="flex:1;text-align-last:center">
+      <navigator url="../SubShop/SubShop">
+        <view class='layout_vertical'>
+          <text class="title">关注店铺</text>
+          <text class="title">10</text>
+        </view>
+      </navigator>
+    </view>
+
+    <view style="flex:1;text-align-last:center">
+      <navigator url="../ValuedLesson/ValuedLesson">
+        <view class='layout_vertical'>
+          <text class="title">收藏课程</text>
+          <text class="title">4</text>
+        </view>
+      </navigator>
+    </view>
+
+    <view style="flex:1;text-align-last:center">
+      <navigator url="../RecentBrowse/RecentBrowse">
+        <view class='layout_vertical'>
+          <text class="title">最近浏览</text>
+          <text class="title">4</text>
+        </view>
+      </navigator>
+    </view>
+
+  </view>
+  <!-- view3 -->
+  <view class='layout_horizontal'>
+    <view style="flex:1;text-align-last:center">
+      <navigator url="../MyLesson/MyLesson">
+        <view class='layout_vertical'>
+        <icon type='info'></icon>
+          <text class="title">我的课程</text>
+        </view>
+      </navigator>
+    </view>
+
+    <view style="flex:1;text-align-last:center">
+      <navigator url="../MyVip/MyVip">
+        <view class='layout_vertical'>
+        <icon type='info'></icon>
+          <text class="title">我的会员</text>
+        </view>
+      </navigator>
+    </view>
+
+    <view style="flex:1;text-align-last:center">
+      <navigator url="../OrderFormList/OrderFormList">
+        <view class='layout_vertical'>
+          <icon type='info'></icon>
+          <text class="title">我的订单</text>
+        </view>
+      </navigator>
+    </view>
+
+    <view style="flex:1;text-align-last:center">
+      <navigator url="../MySpecialDiscoun/MySpecialDiscoun">
+        <view class='layout_vertical'>
+          <icon type='info'></icon>
+          <text class="title">优惠券</text>
+        </view>
+      </navigator>
+    </view>
+
+  </view>
+  <view>
+    <button>关于我们</button>
+  </view>
+</view>

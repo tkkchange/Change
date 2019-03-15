@@ -1,6 +1,4 @@
-<!--index.wxml-->
 <view class="container-fluid">
-   
     <text class="page__title" class="main">日历</text>
     <view class="demo4">
         <calendar  

@@ -37,7 +37,11 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+<<<<<<< HEAD
+			"current": 4,
+=======
+			"current": 3,
+>>>>>>> 4a5eec44e3075f47d43e63c608acf1cb9fb9bb49
 			"list": [
 				{
 					"id": -1,
@@ -53,10 +57,35 @@
 					"query": ""
 				},
 				{
+					"id": 3,
+					"name": "confirm",
+					"pathName": "Change/ConfirmConsume/ConfirmConsume",
+					"query": "",
+					"scene": null
+				},
+				{
 					"id": -1,
 					"name": "map",
+<<<<<<< HEAD
 					"pathName": "Change/Map/Map",
+					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的信息",
+					"pathName": "Change/Mine/Mine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "mytimetable",
+					"pathName": "Change/Timetable/Timetable",
+					"scene": null
+=======
+					"pathName": "Change/Map/Map"
+>>>>>>> 4a5eec44e3075f47d43e63c608acf1cb9fb9bb49
 				}
 			]
 		}

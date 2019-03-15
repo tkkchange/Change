@@ -1,0 +1,57 @@
+<view class="page">
+    <view class="page__bd">
+        <wux-row>
+            <wux-col span="12">
+                <view class="main">课程信息</view>
+            </wux-col>
+             <wux-col span="12">
+            <!--第一种换行形式-->
+                <text class="word">1、xxx\n2、xxx</text>
+            </wux-col>
+        </wux-row>
+        <wux-white-space size="large" />
+        <wux-row>
+            <wux-col span="12">
+                <view class="main">各种政策</view>
+            </wux-col>
+            <wux-col span="12">
+            <!--第二种换行形式-->
+                <text class="word">1、xxx</text>
+                <text class='word'>2、xxx</text>
+            </wux-col>
+        </wux-row>
+
+
+<wux-white-space size="large" />
+<wux-white-space size="large" />
+    </view>
+     <view class="table">
+      <view class="tr" >
+          <view class="td td1">姓名</view>
+          <view class="td td3">xxx</view>
+      </view>
+       <view class="tr" >
+          <view class="td td1">联系电话</view>
+          <view class="td td3">xxx</view>
+      </view>
+      <view class="tr" >
+          <view class="td td1">XXX</view>
+          <view class="td td3">xxx</view>
+      </view>
+      <view class="tr" >
+          <view class="td td1">XXX</view>
+          <view class="td td3">xxx</view>
+      </view>
+    </view>
+<view class='btm_view'>
+        <wux-row>
+            <wux-col span="6">
+                <view class="placeholder">总价：</view>
+            </wux-col>
+            <wux-col span="6">
+                <view class="placeholder"><wux-button block type="assertive" bindtap='' >立即购买</wux-button></view>
+            </wux-col>
+        </wux-row>
+     
+</view>
+</view>

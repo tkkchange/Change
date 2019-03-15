@@ -1,5 +1,20 @@
 {
-  "pages":["Change/Calendar/Calendar","Change/First/First","Change/Mine/Mine","Change/Timetable/Timetable","Change/ConfirmConsume/ConfirmConsume","Change/Map/Map"],
+  "pages":
+  [
+    "Change/Calendar/Calendar",
+    "Change/First/First",
+    "Change/Mine/Mine",
+    "Change/Timetable/Timetable",
+    "Change/SubShop/SubShop",
+    "Change/ValuedLesson/ValuedLesson",
+    "Change/RecentBrowse/RecentBrowse",
+    "Change/ConfirmConsume/ConfirmConsume",
+    "Change/Map/Map",
+    "Change/MyLesson/MyLesson",
+    "Change/MyVip/MyVip",
+    "Change/OrderFormList/OrderFormList",
+    "Change/MySpecialDiscoun/MySpecialDiscoun"
+  ],
   "tabBar":{
     "list":[
       {

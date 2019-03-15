@@ -1,0 +1,15 @@
+<view class='layout_vertical'>
+
+
+  <view style='flex:1'>课程表位</view>
+  
+  <!--轮播图 -->
+  <view style='flex:1'>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" vertical="{{isVertical}}" duration="{{duration}}" circular='false'>
+      <swiper-item wx:for="{{imgUrls}}">
+        <image src="{{item}}" />
+      </swiper-item>
+    </swiper>
+  </view>
+
+</view>
