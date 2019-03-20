@@ -1,0 +1,26 @@
+.viparea{
+ /* border: 1rpx solid red;*/
+  height: 420rpx;
+  width: 90%;
+  margin: 5%;
+  text-align: right;
+}
+.viparea text{
+  font-size: 10px;
+  color: grey;
+}
+.vipcard{
+ /* border: 1rpx solid blue;*/
+  height: 280rpx;
+  width: 90%;
+  margin: 5%;
+  text-align: left;
+  background: lightcyan;
+  border-radius: 10px;
+  
+}
+.vipcard text{
+  margin:15px; 
+  font-size: 15px;
+  color:lightblue;
+}
