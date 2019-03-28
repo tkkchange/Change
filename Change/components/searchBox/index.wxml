@@ -1,4 +1,8 @@
-<!-- 搜索框开始 -->
+<!-- 组件模板 -->
+<view class="wrapper">
+
+  <slot></slot>
+  <!-- 搜索框开始 -->
     <view class='tit_seabox'>
         <view class="tit_seabox_bar {{addflag?'tit_seabox_add':''}} {{searchflag?'tit_start_search':''}}">
             <icon type='search' size="32rpx"></icon>
@@ -11,13 +15,5 @@
     </view>
 <!-- 搜索框结束 -->
 
-<swiper indicator-dots="{{indicatorDots}}"
-           autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
-         <block wx:for="{{imgUrls}}">  
-           <swiper-item>  
-              <navigator url="{{item.link}}" hover-class="navigator-hover">  
-               <image src="{{item.url}}" class="slide-image" width="355" height="150"/>  
-              </navigator>  
-           </swiper-item>  
-         </block>  
-</swiper>
+   
+</view>
