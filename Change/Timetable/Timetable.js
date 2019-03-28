@@ -4,6 +4,26 @@ Page({
    * 页面的初始数据
    */
   data: {
+    list: [{
+      id: 'view',
+      name: '课程1',
+      open: false,
+      pages: ['时间：', '地点：']
+    }, {
+      id: 'content',
+      name: '课程2',
+      open: false,
+      pages: ['时间：', '地点：']
+    }, {
+      id: 'form',
+      name: '课程3',
+      open: false,
+      pages: ['时间：', '地点：']
+    }],
+
+
+    
+
     imgUrls: [
       '../../images/First/1.jpg',
       '../../images/First/2.jpg',
@@ -13,6 +33,26 @@ Page({
     autoplay: true, //是否自动切换
     interval: 3000, //自动切换时间间隔,3s
     duration: 1000, //  滑动动画时长1s
+  },
+
+  kindToggle(e) {
+        const id = e.currentTarget.id
+        const list = this.data.list
+        for (let i = 0, len = list.length; i < len; ++i) {
+        if (list[i].id === id) {
+        list[i].open = !list[i].open
+      } else {
+        list[i].open = false
+      }
+    } 
+    /**
+    * key和value名称一样时，可以省略
+    * 
+    * list:list=>list
+    */
+    this.setData({
+      list
+      })
   },
 
   /**
