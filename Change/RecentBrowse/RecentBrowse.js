@@ -4,7 +4,41 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    list: [{
+      id: 'view',
+      name: '店铺1',
+      open: false,
+      pages: ['时间：', '地点：']
+    }, {
+      id: 'content',
+      name: '店铺2',
+      open: false,
+      pages: ['时间：', '地点：']
+    }, {
+      id: 'form',
+      name: '店铺3',
+      open: false,
+      pages: ['时间：', '地点：']
+    }],
+  },
+  kindToggle(e) {
+    const id = e.currentTarget.id
+    const list = this.data.list
+    for (let i = 0, len = list.length; i < len; ++i) {
+      if (list[i].id === id) {
+        list[i].open = !list[i].open
+      } else {
+        list[i].open = false
+      }
+    }
+    /**
+    * key和value名称一样时，可以省略
+    * 
+    * list:list=>list
+    */
+    this.setData({
+      list
+    })
   },
 
   /**

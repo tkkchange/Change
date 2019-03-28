@@ -18,7 +18,7 @@
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-	"isGameTourist": false,
+	"scripts": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -33,16 +33,10 @@
 			"list": []
 		},
 		"game": {
-			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
-
-			"current": 3,
-
-			"current": 3,
-
+			"current": 5,
 			"list": [
 				{
 					"id": -1,
@@ -56,13 +50,6 @@
 					"name": "日历",
 					"pathName": "Change/Calendar/Calendar",
 					"query": ""
-				},
-				{
-					"id": 3,
-					"name": "confirm",
-					"pathName": "Change/ConfirmConsume/ConfirmConsume",
-					"query": "",
-					"scene": null
 				},
 				{
 					"id": -1,
@@ -82,8 +69,14 @@
 					"id": -1,
 					"name": "mytimetable",
 					"pathName": "Change/Timetable/Timetable",
+					"query": "",
 					"scene": null
-					"pathName":"Change/Map/Map"
+				},
+				{
+					"id": -1,
+					"name": "最近浏览",
+					"pathName": "Change/RecentBrowse/RecentBrowse",
+					"scene": null
 				}
 			]
 		}
