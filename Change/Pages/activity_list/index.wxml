@@ -1,0 +1,11 @@
+<!-- 搜索框 -->
+<view >
+    <!-- addflag="{{addflag}}" addimg="{{addimg}}" bind:addhandle="addhandle" -->
+    <SearchBar id="SearchBar" searchstr="{{searchstr}}" bind:searchList="searchList" bind:endsearchList="endsearchList" bind:cancelsearch="cancelsearch" bind:activity_clear="activity_clear">
+    </SearchBar>
+</view>
+
+
+
+
+
