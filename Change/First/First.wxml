@@ -14,3 +14,19 @@
          </block>  
 </swiper>
 <!-- 广告图片轮播结束 -->
+
+<!-- 热门类目展示开始 -->
+<view class="Category">
+  <block wx:for="{{mItem}}">
+    <button class='btn1'>
+        <image class='btnImg' src="{{item.imgurl}}"></image>
+        <view><text>{{item.name}}</text></view>
+    </button>
+  </block>
+</view>
+<!-- 热门类目展示结束 -->
+
+<!-- 分割线 -->
+<view class="container">
+  <view class="divLine"></view>
+</view>

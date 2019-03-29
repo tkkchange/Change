@@ -21,6 +21,24 @@ Page({
         url: '../../images/First/3.jpg'
       }
     ],
+    mItem:[
+      {
+        name: '绘画',
+        imgurl: '../../images/first/hh.png'
+      },
+      {
+        name: '舞蹈',
+        imgurl: '../../images/first/wd.png'
+      },
+      {
+        name: '吉他',
+        imgurl: '../../images/first/jt.png'
+      },
+      {
+        name: '钢琴',
+        imgurl: '../../images/first/gq.png'
+      }
+    ],
     indicatorDots: true,  //小点
     autoplay: true,  //是否自动轮播
     interval: 5000,  //间隔时间

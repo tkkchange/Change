@@ -1,1 +1,37 @@
 @import "../components/searchBox/index.wxss";
+/*-----------------*/
+.btn1{
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 5rpx;
+  background-color: white;
+  color: #999999;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+.btnImg {
+  margin-top: 15rpx;
+  width: 65rpx;
+  height: 65rpx;
+}
+.btn1::after {
+  border: 0; 
+}
+/*-----------------*/
+.Category{
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+}
+/*-----------------*/
+.divLine{
+ background: rgb(214, 214, 214);
+ width: 730rpx;
+ margin-left: 10rpx; 
+ margin-left: 10prx; 
+ height: 3rpx;
+}
