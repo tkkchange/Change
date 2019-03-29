@@ -24,19 +24,23 @@ Page({
     mItem:[
       {
         name: '绘画',
-        imgurl: '../../images/first/hh.png'
+        imgurl: '../../images/First/hh.png', 
+        link:"../Mine/Mine"
       },
       {
         name: '舞蹈',
-        imgurl: '../../images/first/wd.png'
+        imgurl: '../../images/First/wd.png', 
+        link: "../Mine/Mine"
       },
       {
         name: '吉他',
-        imgurl: '../../images/first/jt.png'
+        imgurl: '../../images/First/jt.png', 
+        link: "../Mine/Mine"
       },
       {
         name: '钢琴',
-        imgurl: '../../images/first/gq.png'
+        imgurl: '../../images/First/gq.png', 
+        link: "../Mine/Mine"
       }
     ],
     indicatorDots: true,  //小点

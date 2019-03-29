@@ -18,10 +18,12 @@
 <!-- 热门类目展示开始 -->
 <view class="Category">
   <block wx:for="{{mItem}}">
-    <button class='btn1'>
-        <image class='btnImg' src="{{item.imgurl}}"></image>
-        <view><text>{{item.name}}</text></view>
-    </button>
+    <navigator url="{{item.link}}" open-type="navigator">
+      <button class='btn1'>
+          <image class='btnImg' src="{{item.imgurl}}"></image>
+          <text>{{item.name}}</text>
+      </button>
+    </navigator>
   </block>
 </view>
 <!-- 热门类目展示结束 -->
