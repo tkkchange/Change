@@ -77,7 +77,9 @@ Component({
     },
     //清空搜索框
     activity_clear(e) {
-
+      this.setData({
+        searchstr: '',
+      })
       this.triggerEvent("activity_clear");
     },
 
