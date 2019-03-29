@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+}
+.BM_btn{
+ color: red;
+ width:100%;
+ position:fixed; 
+ bottom:0; 
+}
