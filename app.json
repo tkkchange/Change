@@ -13,7 +13,8 @@
     "Change/MyLesson/MyLesson",
     "Change/MyVip/MyVip",
     "Change/OrderFormList/OrderFormList",
-    "Change/MySpecialDiscoun/MySpecialDiscoun"
+    "Change/MySpecialDiscoun/MySpecialDiscoun",
+    "Change/Message/Message"
   ],
   "tabBar":{
     "list":[

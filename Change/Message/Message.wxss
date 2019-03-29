@@ -1,0 +1,41 @@
+.lesson{
+  border-bottom: 1px solid lightgrey;
+  height:180rpx; 
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.lesson image{
+/*  border: 1px solid red;*/
+  height: 150rpx;
+  width:150rpx;
+  margin: 15rpx;
+}
+.lesson_info{
+  /*border: 1px solid red;*/
+  height: 180rpx;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.lesson_title{
+  height:130rpx;
+  line-height: 40rpx;
+   /* 显示多行 */
+  display:-webkit-box; 
+  overflow:hidden; 
+  /* 2为显示的行数 */
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  /*border: 1px solid red;*/
+}
+.lesson_date{
+  /* border: 1px solid pink;*/
+  height:40rpx;
+  color: gainsboro;
+  font-size: 12px;
+  text-align: right;
+}
+.lesson_title text{
+  font-size: 15px;
+}

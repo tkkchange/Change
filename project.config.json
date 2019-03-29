@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -59,9 +59,9 @@
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 3,
 					"name": "我的信息",
-					"pathName": "Change/Mine/Mine",
+					"pathName": "Change/Message/Message",
 					"query": "",
 					"scene": null
 				},
@@ -76,6 +76,7 @@
 					"id": -1,
 					"name": "最近浏览",
 					"pathName": "Change/RecentBrowse/RecentBrowse",
+					"query": "",
 					"scene": null
 				}
 			]

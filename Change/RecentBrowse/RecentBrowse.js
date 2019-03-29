@@ -5,20 +5,20 @@ Page({
    */
   data: {
     list: [{
-      id: 'view',
+      id: 'shop1',
       name: '店铺1',
       open: false,
-      pages: ['时间：', '地点：']
+      pages: ['地点：']
     }, {
-      id: 'content',
+      id: 'shop2',
       name: '店铺2',
       open: false,
-      pages: ['时间：', '地点：']
+      pages: ['地点：']
     }, {
-      id: 'form',
+      id: 'shop3',
       name: '店铺3',
       open: false,
-      pages: ['时间：', '地点：']
+      pages: ['地点：']
     }],
   },
   kindToggle(e) {
