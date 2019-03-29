@@ -21,26 +21,48 @@ Page({
         url: '../../images/First/3.jpg'
       }
     ],
+    /*类别推荐*/
     mItem:[
       {
         name: '绘画',
         imgurl: '../../images/First/hh.png', 
-        link:"../Mine/Mine"
+        link:"../Map/Map"
       },
       {
         name: '舞蹈',
         imgurl: '../../images/First/wd.png', 
-        link: "../Mine/Mine"
+        link: "../Map/Map"
       },
       {
         name: '吉他',
         imgurl: '../../images/First/jt.png', 
-        link: "../Mine/Mine"
+        link: "../Map/Map"
       },
       {
         name: '钢琴',
         imgurl: '../../images/First/gq.png', 
-        link: "../Mine/Mine"
+        link: "../Map/Map"
+      }
+    ],
+    /*推荐商家*/
+    busiList:[
+      {
+        link: '../Map/Map',
+        imgUrl:'../../images/First/1.jpg',
+        name: '商家A',
+        intro: "One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
+      }, 
+      {
+        link: '../Map/Map',
+        imgUrl: '../../images/First/2.jpg',
+        name: '商家B',
+        intro: "One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
+      }, 
+      {
+        link: '../Map/Map',
+        imgUrl: '../../images/First/3.jpg',
+        name: '商家C',
+        intro:"One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
       }
     ],
     indicatorDots: true,  //小点

@@ -18,7 +18,7 @@
 <!-- 热门类目展示开始 -->
 <view class="Category">
   <block wx:for="{{mItem}}">
-    <navigator url="{{item.link}}" open-type="navigator">
+    <navigator url="{{item.link}}">
       <button class='btn1'>
           <image class='btnImg' src="{{item.imgurl}}"></image>
           <text>{{item.name}}</text>
@@ -32,3 +32,13 @@
 <view class="container">
   <view class="divLine"></view>
 </view>
+
+<!-- 推荐商家开始 -->
+<view>
+  <block wx:for="{{busiList}}">
+    <navigator url="{{item.link}}">
+      <piBox img="{{item.imgUrl}}" name="{{item.name}}" intro="{{item.intro}}"/>
+    </navigator>
+  </block>
+</view>
+<!-- 推荐商家结束 -->
