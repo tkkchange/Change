@@ -1,8 +1,7 @@
+import schBox from '../components/searchBox/index';
 //index.js
 //获取应用实例
-var WxSearch = require('../wxSearch/wxSearch.js')
 var app = getApp()
-var hd=''
 Page({
 
   /**
@@ -26,6 +25,9 @@ Page({
     autoplay: true,  //是否自动轮播
     interval: 5000,  //间隔时间
     duration: 3000,  //滑动时间
+
+    /*搜索框传值*/
+
   },
 
   /**
@@ -33,45 +35,6 @@ Page({
    */
   onLoad: function (options) {
     console.log('onLoad')
-    var that = this
-    //初始化的时候渲染wxSearchdata
-    WxSearch.init(that, 43, ['例1', '例2', '例3', '例4', '例5']);
-    //智能模糊查询
-    WxSearch.initMindKeys(['weappdev.com', '微信小程序开发', '微信开发', '微信小程序']);
-  },
-  wxSearchFn: function (e) {
-    var that = this
-    WxSearch.wxSearchAddHisKey(that);
-  },
-  wxSearchInput: function (e) {
-    var that = this
-    WxSearch.wxSearchInput(e, that);
-  },
-  wxSerchFocus: function (e) {
-    var that = this
-    WxSearch.wxSearchFocus(e, that);
-    hd=''
-  },
-  wxSearchBlur: function (e) {
-    var that = this
-    WxSearch.wxSearchBlur(e, that);
-    hd = '1'
-  },
-  wxSearchKeyTap: function (e) {
-    var that = this
-    WxSearch.wxSearchKeyTap(e, that);
-  },
-  wxSearchDeleteKey: function (e) {
-    var that = this
-    WxSearch.wxSearchDeleteKey(e, that);
-  },
-  wxSearchDeleteAll: function (e) {
-    var that = this;
-    WxSearch.wxSearchDeleteAll(that);
-  },
-  wxSearchTap: function (e) {
-    var that = this
-    WxSearch.wxSearchHiddenPancel(that);
   },
 
   /**

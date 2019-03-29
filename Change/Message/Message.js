@@ -4,7 +4,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    list: [{
+      id: 'message1',
+      name: '消息1',
+    }, {
+      id: 'message2',
+      name: '消息2',
+    }, {
+      id: 'message3',
+      name: '消息3',
+    }],
   },
 
   /**

@@ -1,0 +1,36 @@
+<view class='layout_vertical'>
+
+
+  <view style='flex:1'>
+    <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+      <view class="kind-list-item">
+
+        <view id="{{item.id}}" class ="kind-list-item-hd {{item.open ? 'kind-list-item-hd-show' : ''}}" bindtap="kindToggle">
+          <view class="kind-list-text">{{item.name}}</view>
+        </view>
+        
+        <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
+          <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
+            <block wx:for-items="{{item.pages}}" wx:for-item="page" wx:key="*item">
+              <navigator url="pages/{{page}}/{{page}}" class="navigator">
+                <view class="navigator-text">{{page}}</view>
+                <!-- icon -->
+              </navigator>
+            </block>
+          </view>
+        </view>
+
+      </view>
+    </block>
+  </view>
+  
+  <!--轮播图 -->
+  <view style='flex:1'>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" vertical="{{isVertical}}" duration="{{duration}}" circular='false'>
+      <swiper-item wx:for="{{imgUrls}}">
+        <image src="{{item}}" />
+      </swiper-item>
+    </swiper>
+  </view>
+
+</view>

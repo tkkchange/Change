@@ -18,7 +18,7 @@
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-	"isGameTourist": false,
+	"scripts": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -33,7 +33,6 @@
 			"list": []
 		},
 		"game": {
-			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
@@ -53,16 +52,32 @@
 					"query": ""
 				},
 				{
+					"id": -1,
+					"name": "map",
+					"pathName": "Change/Map/Map",
+					"query": "",
+					"scene": null
+				},
+				{
 					"id": 3,
-					"name": "confirm",
-					"pathName": "Change/ConfirmConsume/ConfirmConsume",
+					"name": "我的信息",
+					"pathName": "Change/Message/Message",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "map",
-					"pathName": "Change/Map/Map"
+					"name": "mytimetable",
+					"pathName": "Change/Timetable/Timetable",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "最近浏览",
+					"pathName": "Change/RecentBrowse/RecentBrowse",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

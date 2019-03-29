@@ -1,7 +1,27 @@
 {
+<<<<<<< HEAD
   "pages":["Change/SubShop/SubShop","Change/ChangeData/ChangeData","Change/Calendar/Calendar","Change/First/First","Change/Mine/Mine","Change/Timetable/Timetable","Change/ConfirmConsume/ConfirmConsume"],
  
 
+=======
+  "pages":
+  [
+    "Change/Calendar/Calendar",
+    "Change/First/First",
+    "Change/Mine/Mine",
+    "Change/Timetable/Timetable",
+    "Change/SubShop/SubShop",
+    "Change/ValuedLesson/ValuedLesson",
+    "Change/RecentBrowse/RecentBrowse",
+    "Change/ConfirmConsume/ConfirmConsume",
+    "Change/Map/Map",
+    "Change/MyLesson/MyLesson",
+    "Change/MyVip/MyVip",
+    "Change/OrderFormList/OrderFormList",
+    "Change/MySpecialDiscoun/MySpecialDiscoun",
+    "Change/Message/Message"
+  ],
+>>>>>>> dc3eb5330abaa6df6f8d855154c16784980dacc3
   "tabBar":{
     "list":[
       {
