@@ -1,0 +1,16 @@
+<!-- 搜索框开始 -->
+    <secBox  searchstr=''/>
+<!-- 搜索框结束 -->
+
+<!-- 广告图片轮播开始 -->
+<swiper indicator-dots="{{indicatorDots}}"
+           autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
+         <block wx:for="{{imgUrls}}">  
+           <swiper-item>  
+              <navigator url="{{item.link}}" hover-class="navigator-hover">  
+               <image src="{{item.url}}" class="slide-image" width="355" height="150"/>  
+              </navigator>  
+           </swiper-item>  
+         </block>  
+</swiper>
+<!-- 广告图片轮播结束 -->
