@@ -16,6 +16,40 @@ Page({
         link: '/pages/index/index',
         url: '../../images/First/3.jpg'
       }
+    ],
+    /*商家信息组件*/
+    bsnsInfo:[
+      {
+        img:"../../../images/icon/first.png",
+        name:"商家1",
+        ads:"福建漳州招商局经济技术开发区厦门大学漳州校区",
+        grade: "1",
+        link: '/pages/index/index'
+      }, {
+        img: "../../../images/icon/first.png",
+        name: "商家2",
+        ads: "福建漳州招商局经济技术开发区厦门大学漳州校区",
+        grade: "2",
+        link: '/pages/index/index'
+      }, {
+        img: "../../../images/icon/first.png",
+        name: "商家3",
+        ads: "福建漳州招商局经济技术开发区厦门大学漳州校区",
+        grade: "3",
+        link: '/pages/index/index'
+      }, {
+        img: "../../../images/icon/first.png",
+        name: "商家4",
+        ads: "福建漳州招商局经济技术开发区厦门大学漳州校区",
+        grade: "4",
+        link: '/pages/index/index'
+      }, {
+        img: "../../../images/icon/first.png",
+        name: "商家5",
+        ads: "福建漳州招商局经济技术开发区厦门大学漳州校区",
+        grade: "5",
+        link: '/pages/index/index'
+      }
     ]
   },
 

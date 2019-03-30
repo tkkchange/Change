@@ -1,0 +1,68 @@
+.sib-whole{
+  width: calc( 100%  );
+  background: white;
+  height:230rpx;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.sib-left{
+  width: 230rpx;
+  height: 230rpx;
+  display: flex;
+  align-items:flex-start;
+  background: white;
+}
+.sib-left-img{
+  width: 190rpx;
+  height: 190rpx;
+  display: flex;
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+.sib-right{
+  width:calc( 100%-60rpx  );
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  padding-left:30rpx; 
+  padding-top: 30rpx;
+  padding-right: 30rpx;
+  padding-bottom: 30rpx;
+  background: white;
+  font-size: 30rpx;
+}
+.sib-right-1{
+  width:auto;
+  height:30rpx;
+  display: flex;
+  padding-left:10rpx; 
+  padding-top: 30rpx;
+  padding-right: 30rpx;
+  padding-bottom: 30rpx;
+  background: white;
+  font-size: 30rpx;
+  overflow: hidden;
+}
+.sib-right-2{
+  width:auto;
+  height:80rpx;
+  display: flex;
+  padding-left:10rpx; 
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  background: white;
+  font-size: 25rpx;
+  overflow: hidden;
+}
+.sib-right-3{
+  width:auto;
+  height:80rpx;
+  display: flex;
+  padding-left:10rpx; 
+  padding-top: 10rpx;
+  padding-bottom: 20rpx;
+  font-style: row;
+  align-content: flex-start;
+}

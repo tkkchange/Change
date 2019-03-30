@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "店铺信息",
   "usingComponents": {
-    "secBox": "../components/searchBox/index"
+    "secBox": "../components/searchBox/index",
+    "storeIB": "../components/storeInfoBox/index"
   }
 }

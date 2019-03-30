@@ -1,0 +1,27 @@
+<!-- 组件模板 -->
+<view class="wrapper">
+
+  <slot></slot>
+  <!-- 商家信息组件开始 -->
+    <view class='sib-whole' style='border=2rpx'>
+      <!-- 商家图标 -->
+      <view class='sib-left'>
+        <image class='sib-left-img' src="{{img}}"/>
+      </view>
+      <view class='sib-right'>
+        <!-- 商家名称 -->
+        <view class='sib-right-1'>
+        <text>{{name}}</text>
+        </view>
+        <!-- 商家地址 -->
+        <view class='sib-right-2'>
+        <text>{{ads}}</text>
+        </view>
+        <!-- 商家评分 -->
+        <view class='sib-right-3'>
+          <star grade="{{grade}}"/>
+        </view>
+      </view>
+    </view>
+<!-- 商家信息组件结束 -->
+</view>
