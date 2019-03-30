@@ -1,3 +1,7 @@
 {
-    "navigationBarTitleText": "Change约课吧"
+  "navigationBarTitleText": "Change约课吧",
+  "usingComponents": {
+    "secBox": "../components/searchBox/index",
+    "piBox": "../components/picInforBox/index"
+  }
 }

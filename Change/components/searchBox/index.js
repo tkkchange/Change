@@ -64,7 +64,9 @@ Component({
     //失去焦点
     blursearch() {
       // console.log('失去焦点')
-
+      this.setData({
+        searchflag: false,
+      })
     },
     // 取消
     cancelsearch() {
@@ -75,7 +77,9 @@ Component({
     },
     //清空搜索框
     activity_clear(e) {
-
+      this.setData({
+        searchstr: '',
+      })
       this.triggerEvent("activity_clear");
     },
 

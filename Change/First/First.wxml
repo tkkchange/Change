@@ -1,16 +1,8 @@
 <!-- 搜索框开始 -->
-    <view class='tit_seabox'>
-        <view class="tit_seabox_bar {{addflag?'tit_seabox_add':''}} {{searchflag?'tit_start_search':''}}">
-            <icon type='search' size="32rpx"></icon>
-            <input type="text" bindinput="searchList" bindconfirm="endsearchList" bindfocus='getfocus' bindblur="blursearch" confirm-type='search' value='{{searchstr}}' placeholder='请输入...' />
-            <icon bindtap='activity_clear' wx:if="{{searchflag}}" type='clear' size="28rpx"></icon>
-        
-        </view>
-        <view wx:if="{{searchflag}}" bindtap='cancelsearch' class="activity_seabtn">取消</view>
-        <view class='activity_add' wx:if="{{addflag}}"><image bindtap='addhandle' src='{{addimg}}'></image></view>
-    </view>
+    <secBox  searchstr=''/>
 <!-- 搜索框结束 -->
 
+<!-- 广告图片轮播开始 -->
 <swiper indicator-dots="{{indicatorDots}}"
            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
          <block wx:for="{{imgUrls}}">  
@@ -21,3 +13,32 @@
            </swiper-item>  
          </block>  
 </swiper>
+<!-- 广告图片轮播结束 -->
+
+<!-- 热门类目展示开始 -->
+<view class="Category">
+  <block wx:for="{{mItem}}">
+    <navigator url="{{item.link}}">
+      <button class='btn1'>
+          <image class='btnImg' src="{{item.imgurl}}"></image>
+          <text>{{item.name}}</text>
+      </button>
+    </navigator>
+  </block>
+</view>
+<!-- 热门类目展示结束 -->
+
+<!-- 分割线 -->
+<view class="container">
+  <view class="divLine"></view>
+</view>
+
+<!-- 推荐商家开始 -->
+<view>
+  <block wx:for="{{busiList}}">
+    <navigator url="{{item.link}}">
+      <piBox img="{{item.imgUrl}}" name="{{item.name}}" intro="{{item.intro}}"/>
+    </navigator>
+  </block>
+</view>
+<!-- 推荐商家结束 -->

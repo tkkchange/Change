@@ -37,6 +37,7 @@
 		},
 		"miniprogram": {
 			"current": -1,
+			"current": 6,
 			"list": [
 				{
 					"id": -1,
@@ -77,6 +78,12 @@
 					"name": "最近浏览",
 					"pathName": "Change/RecentBrowse/RecentBrowse",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "shoplist",
+					"pathName": "Change/ShopList/ShopList",
 					"scene": null
 				}
 			]
