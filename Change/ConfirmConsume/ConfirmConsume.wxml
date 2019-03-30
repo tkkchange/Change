@@ -20,11 +20,12 @@
                 <text class='word'>2、xxx</text>
             </wux-col>
         </wux-row>
-
-
+</view>
+<!--上下留白-->
 <wux-white-space size="large" />
 <wux-white-space size="large" />
-    </view>
+<!--两翼留白-->
+    <wux-wing-blank size="default">
      <view class="table">
       <view class="tr" >
           <view class="td td1">姓名</view>
@@ -43,10 +44,13 @@
           <view class="td td3">xxx</view>
       </view>
     </view>
+    </wux-wing-blank>
+
 <view class='btm_view'>
         <wux-row>
             <wux-col span="6">
-                <view class="placeholder">总价：</view>
+            <wux-white-space size="large" />
+                <view class="main">总价：{{price}}</view>
             </wux-col>
             <wux-col span="6">
                 <view class="placeholder"><wux-button block type="assertive" bindtap='' >立即购买</wux-button></view>
