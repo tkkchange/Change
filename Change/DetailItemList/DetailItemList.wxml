@@ -43,7 +43,32 @@
 <!-- 商家图片墙结束 -->
 
 <!-- 商家信息栏开始 -->
-<view>
-
+<view class='bsnsInfo-whole'>
+  <view class='bsnsInfo-top'>
+    <!-- 店铺名称 -->
+    <view class='bsnsInfo-top-left'>
+      <text  class='bsnsInfo-text-a'>xxx舞蹈房</text>
+    </view>
+    <!-- 收藏按钮 -->
+    <view class='bsnsInfo-top-riht'>
+      <navigator>
+        <image class='.bsnsInfo-img' src='../../images/detailitemlist/collection.png'/>
+        <text  class='bsnsInfo-text-b'>收藏</text>
+      </navigator>
+    </view>
+  </view>
+  <view class='bsnsInfo-bottom'>
+    <!-- 地址 -->
+    <view class='bsnsInfo-bottom-left'>
+      <text  class='bsnsInfo-text-b'>xxx市xx镇xxx路xxx楼xxx室</text>
+    </view>
+    <!-- 导航/地图 -->
+    <view class='bsnsInfo-bottom-right'>
+      <navigator url='../Map/Map'>
+        <text class='bsnsInfo-text-b'>导航/地图</text>
+        <image class='.bsnsInfo-img' src='../../images/detailitemlist/position.png'/>
+      </navigator>
+    </view>
+  </view>
 </view>
 <!-- 商家信息栏结束 -->

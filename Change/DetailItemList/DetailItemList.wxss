@@ -84,3 +84,68 @@
   width: calc( 100% );
   height: calc( 100% );
 }
+/*-----------------*/
+.bsnsInfo-whole{
+  width: calc( 100% );
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+}
+.bsnsInfo-whole .bsnsInfo-top{
+  width: calc( 94% );
+  height: 75rpx;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0rpx;
+  margin-bottom: 5rpx;
+  margin-left: calc(3%);
+  margin-right: calc(3%);
+}
+.bsnsInfo-whole .bsnsInfo-bottom{
+  width: calc( 94% );
+  height: 65rpx;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rpx;
+  margin-bottom: 0rpx;
+  margin-left: calc(3%);
+  margin-right: calc(3%);
+}
+.bsnsInfo-whole .bsnsInfo-top .bsnsInfo-top-left{
+  display: flex;
+  width: calc(70%);
+  height: calc(100%);
+}
+.bsnsInfo-whole .bsnsInfo-top .bsnsInfo-top-riht{
+  display: flex;
+  flex-direction: row;
+  width: calc(30%);
+  height: calc(100%);
+  margin: auto;
+}
+.bsnsInfo-whole .bsnsInfo-bottom .bsnsInfo-bottom-left{
+  display: flex;
+  width: calc(70%);
+  height: calc(100%);
+  overflow: hidden;
+}
+.bsnsInfo-whole .bsnsInfo-bottom .bsnsInfo-bottom-right{
+  display: flex;
+  flex-direction: row;
+  width: calc(30%);
+  height: calc(100%);
+  margin: auto;
+}
+.bsnsInfo-text-a{
+  font-size: 40rpx;
+  margin:  auto auto auto 0;
+}
+.bsnsInfo-text-b{
+  font-size: 30rpx;
+  margin:  auto auto auto 0;
+}
+.bsnsInfo-img{
+  width: 35rpx;
+  height: 35rpx;
+  margin: auto;
+}
