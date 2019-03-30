@@ -3,7 +3,7 @@
 
   <slot></slot>
   <!-- 商家信息组件开始 -->
-    <view class='sib-whole' style='border=2rpx'>
+    <view class='sib-whole'>
       <!-- 商家图标 -->
       <view class='sib-left'>
         <image class='sib-left-img' src="{{img}}"/>
@@ -11,7 +11,7 @@
       <view class='sib-right'>
         <!-- 商家名称 -->
         <view class='sib-right-1'>
-        <text>{{name}}</text>
+        <text   text-align='center'>{{name}}</text>
         </view>
         <!-- 商家地址 -->
         <view class='sib-right-2'>

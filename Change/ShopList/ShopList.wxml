@@ -20,10 +20,6 @@
   <block wx:for="{{bsnsInfo}}" wx:key="unique">
     <navigator url="{{item.link}}" hover-class="navigator-hover">
       <storeIB img="{{item.img}}" name="{{item.name}}" ads="{{item.ads}}" grade="{{item.grade}}"/>
-      <!-- 分割线 -->
-      <view class="container">
-        <view class="divLine"></view>
-      </view>
     </navigator>  
   </block>  
 </view>
