@@ -26,6 +26,8 @@
 <wux-white-space size="large" />
 <!--两翼留白-->
     <wux-wing-blank size="default">
+    <!--原来的表格形式-->
+    <!--
      <view class="table">
       <view class="tr" >
           <view class="td td1">姓名</view>
@@ -44,6 +46,16 @@
           <view class="td td3">xxx</view>
       </view>
     </view>
+    -->
+    
+      <wux-cell-group title="信息">
+            <wux-cell hover-class="none">
+                <wux-input disabled label="姓名" />
+            </wux-cell>
+            <wux-cell hover-class="none">
+                <wux-input disabled label="联系电话" defaultValue="12345678" />
+            </wux-cell>
+        </wux-cell-group>
     </wux-wing-blank>
 
 <view class='btm_view'>

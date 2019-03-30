@@ -1,8 +1,8 @@
 {
   "pages":
   [
-    "Change/Calendar/Calendar",
     "Change/First/First",
+    "Change/Calendar/Calendar",
     "Change/Mine/Mine",
     "Change/Timetable/Timetable",
     "Change/SubShop/SubShop",
