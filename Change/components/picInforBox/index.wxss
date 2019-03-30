@@ -1,0 +1,31 @@
+.pib_whole{
+  width: calc( 100%  );
+  background: white;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  overflow: hidden;
+}
+.pid_up{
+  width: calc( 100%-20rpx);
+  height: 60rpx;
+  display: flex;
+  padding-left: 20rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  align-items:flex-start;
+  border-radius: 0rpx;
+  background: rgb(244, 244, 244);
+}
+.pid_low{
+  width:calc( 100%-60rpx  );
+  height:auto;
+  display: flex;
+  padding-left:30rpx; 
+  padding-top: 30rpx;
+  padding-right: 30rpx;
+  padding-bottom: 30rpx;
+  background: white;
+  font-size: 30rpx;
+}

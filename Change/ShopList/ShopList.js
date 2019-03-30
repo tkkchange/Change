@@ -4,7 +4,19 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    /*图片轮播*/
+    imgUrls: [
+      {
+        link: '/pages/index/index',
+        url: '../../images/First/1.jpg'
+      }, {
+        link: '/pages/logs/logs',
+        url: '../../images/First/2.jpg'
+      }, {
+        link: '/pages/index/index',
+        url: '../../images/First/3.jpg'
+      }
+    ]
   },
 
   /**

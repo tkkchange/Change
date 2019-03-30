@@ -1,0 +1,18 @@
+<!-- 组件模板 -->
+<view class="wrapper">
+
+  <slot></slot>
+  <!-- 商家信息组件开始 -->
+    <view class='pib_whole'>
+        <view class="pid_up">
+          <!-- 商家名称 -->
+          <text>{{name}}</text>
+        </view>
+        <hr/>
+        <view class="pid_low">
+          <!-- 商家介绍 -->
+          <text>{{intro}}</text>
+        </view>
+    </view>
+<!-- 商家信息组件结束 -->
+</view>

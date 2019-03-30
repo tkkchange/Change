@@ -1,10 +1,14 @@
+import {$wuxSelect} from '../../dist/index'
+import { $wuxToast } from '../../dist/index'
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+    value1: '',
+    title1: '',
   },
 
   /**
@@ -61,5 +65,45 @@ Page({
    */
   onShareAppMessage: function () {
     
+  },
+
+//点击事件。点击性别时的弹出框
+  onClick1() {
+    $wuxSelect('#wux-select1').open({
+      value: this.data.value1,
+      options: [
+        '男',
+        '女',
+      ],
+      onConfirm: (value, index, options) => {
+        console.log('onConfirm', value, index, options)
+        if (index !== -1) {
+          this.setData({
+            value1: value,
+            title1: options[index],
+          })
+        }
+      },
+    })
+  },
+
+  showToast() {
+    $wuxToast().show({
+      type: 'success',
+      duration: 1500,
+      color: '#fff',
+      text: '修改成功',
+      success: function(){
+        wx.switchTab({
+          url: '../Mine/Mine'
+        })
+      }
+    })
   }
+
+
+
+
+
+
 })

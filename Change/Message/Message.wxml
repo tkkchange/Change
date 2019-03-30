@@ -1,0 +1,13 @@
+<view>
+  <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+   <view class="lesson">
+     <image src="../../images/First/1.jpg"></image>
+     <view class="lesson_info">
+       <view class="lesson_title">
+           <text>\n{{item.name}}</text>
+       </view>
+       <view class="lesson_date">时间：YYYY-MM-DD</view>
+     </view>
+   </view>
+  </block>
+</view>

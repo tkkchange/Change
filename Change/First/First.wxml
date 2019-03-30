@@ -1,14 +1,9 @@
-<import src="../wxSearch/wxSearch.wxml"/>
+<!-- 搜索框开始 -->
+    <secBox  searchstr=''/>
+<!-- 搜索框结束 -->
 
-<view class="wxSearch-section">
-  <view class="wxSearch-pancel">
-    <input bindinput="wxSearchInput" bindfocus="wxSerchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" class="wxSearch-input" placeholder="搜索"  />
-    <button class="wxSearch-button" bindtap="wxSearchFn" size="mini" plain="true">搜索</button>
-  </view>
-</view>
-<template is="wxSearch" data="{{wxSearchData}}"/>
-
-<swiper indicator-dots="{{indicatorDots}}" hidden="{{hd}}"
+<!-- 广告图片轮播开始 -->
+<swiper indicator-dots="{{indicatorDots}}"
            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
          <block wx:for="{{imgUrls}}">  
            <swiper-item>  
@@ -18,3 +13,32 @@
            </swiper-item>  
          </block>  
 </swiper>
+<!-- 广告图片轮播结束 -->
+
+<!-- 热门类目展示开始 -->
+<view class="Category">
+  <block wx:for="{{mItem}}">
+    <navigator url="{{item.link}}">
+      <button class='btn1'>
+          <image class='btnImg' src="{{item.imgurl}}"></image>
+          <text>{{item.name}}</text>
+      </button>
+    </navigator>
+  </block>
+</view>
+<!-- 热门类目展示结束 -->
+
+<!-- 分割线 -->
+<view class="container">
+  <view class="divLine"></view>
+</view>
+
+<!-- 推荐商家开始 -->
+<view>
+  <block wx:for="{{busiList}}">
+    <navigator url="{{item.link}}">
+      <piBox img="{{item.imgUrl}}" name="{{item.name}}" intro="{{item.intro}}"/>
+    </navigator>
+  </block>
+</view>
+<!-- 推荐商家结束 -->

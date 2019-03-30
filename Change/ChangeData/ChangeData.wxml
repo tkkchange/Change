@@ -1,0 +1,35 @@
+<view class='container'>
+  <wux-avatar size="large" src="/images/icon/me.png" />
+</view>
+<wux-cell-group title="基本资料">
+    <view >
+      <wux-cell hover-class="none">
+      <wux-input label="昵   称：" />
+      </wux-cell>
+      <wux-cell hover-class="none">
+      <wux-input label="手机号:" placeholder="请输入您的电话" />
+      </wux-cell>
+    </view>
+
+   
+    <view >
+      <wux-select id="wux-select1" />
+      <wux-cell title="性别：" extra="{{title1}}" bind:click="onClick1">
+      </wux-cell>
+    </view>
+
+    
+    <view >
+      <wux-cell hover-class="none">
+        <wux-input label="标   签:" />
+      </wux-cell>
+      <wux-cell hover-class="none">
+        <wux-textarea  autoHeight label="简   介:" maxlength='50'/>
+      </wux-cell>
+    </view>
+</wux-cell-group>
+
+<wux-toast id="wux-toast" />
+<view>
+     <wux-button block type="assertive" class='BM_btn' bind:click="showToast">确认修改</wux-button>
+</view>

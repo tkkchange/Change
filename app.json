@@ -6,6 +6,7 @@
     "Change/Mine/Mine",
     "Change/Timetable/Timetable",
     "Change/SubShop/SubShop",
+    "Change/ShopList/ShopList",
     "Change/ValuedLesson/ValuedLesson",
     "Change/RecentBrowse/RecentBrowse",
     "Change/ConfirmConsume/ConfirmConsume",
@@ -13,10 +14,10 @@
     "Change/MyLesson/MyLesson",
     "Change/MyVip/MyVip",
     "Change/OrderFormList/OrderFormList",
-    "Change/MySpecialDiscoun/MySpecialDiscoun"
+    "Change/MySpecialDiscoun/MySpecialDiscoun",
+    "Change/Message/Message"
   ],
-  "pages":["Change/SubShop/SubShop","Change/Calendar/Calendar","Change/First/First","Change/Mine/Mine","Change/Timetable/Timetable","Change/ConfirmConsume/ConfirmConsume"],
-  "pages":["Change/Calendar/Calendar","Change/First/First","Change/Mine/Mine","Change/Timetable/Timetable","Change/ConfirmConsume/ConfirmConsume","Change/Map/Map"],
+
   "tabBar":{
     "list":[
       {

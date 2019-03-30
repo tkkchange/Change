@@ -1,8 +1,7 @@
+import schBox from '../components/searchBox/index';
 //index.js
 //获取应用实例
-var WxSearch = require('../wxSearch/wxSearch.js')
 var app = getApp()
-var hd=''
 Page({
 
   /**
@@ -22,10 +21,57 @@ Page({
         url: '../../images/First/3.jpg'
       }
     ],
+    /*类别推荐*/
+    mItem:[
+      {
+        name: '绘画',
+        imgurl: '../../images/First/hh.png', 
+        link:"../ShopList/ShopList"
+      },
+      {
+        name: '舞蹈',
+        imgurl: '../../images/First/wd.png', 
+        link: "../ShopList/ShopList"
+      },
+      {
+        name: '吉他',
+        imgurl: '../../images/First/jt.png', 
+        link: "../ShopList/ShopList"
+      },
+      {
+        name: '钢琴',
+        imgurl: '../../images/First/gq.png', 
+        link: "../ShopList/ShopList"
+      }
+    ],
+    /*推荐商家*/
+    busiList:[
+      {
+        link: "../ShopList/ShopList",
+        imgUrl:'../../images/First/1.jpg',
+        name: '商家A',
+        intro: "One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
+      }, 
+      {
+        link: "../ShopList/ShopList",
+        imgUrl: '../../images/First/2.jpg',
+        name: '商家B',
+        intro: "One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
+      }, 
+      {
+        link: "../ShopList/ShopList",
+        imgUrl: '../../images/First/3.jpg',
+        name: '商家C',
+        intro:"One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
+      }
+    ],
     indicatorDots: true,  //小点
     autoplay: true,  //是否自动轮播
     interval: 5000,  //间隔时间
     duration: 3000,  //滑动时间
+
+    /*搜索框传值*/
+
   },
 
   /**
@@ -33,45 +79,6 @@ Page({
    */
   onLoad: function (options) {
     console.log('onLoad')
-    var that = this
-    //初始化的时候渲染wxSearchdata
-    WxSearch.init(that, 43, ['例1', '例2', '例3', '例4', '例5']);
-    //智能模糊查询
-    WxSearch.initMindKeys(['weappdev.com', '微信小程序开发', '微信开发', '微信小程序']);
-  },
-  wxSearchFn: function (e) {
-    var that = this
-    WxSearch.wxSearchAddHisKey(that);
-  },
-  wxSearchInput: function (e) {
-    var that = this
-    WxSearch.wxSearchInput(e, that);
-  },
-  wxSerchFocus: function (e) {
-    var that = this
-    WxSearch.wxSearchFocus(e, that);
-    hd=''
-  },
-  wxSearchBlur: function (e) {
-    var that = this
-    WxSearch.wxSearchBlur(e, that);
-    hd = '1'
-  },
-  wxSearchKeyTap: function (e) {
-    var that = this
-    WxSearch.wxSearchKeyTap(e, that);
-  },
-  wxSearchDeleteKey: function (e) {
-    var that = this
-    WxSearch.wxSearchDeleteKey(e, that);
-  },
-  wxSearchDeleteAll: function (e) {
-    var that = this;
-    WxSearch.wxSearchDeleteAll(that);
-  },
-  wxSearchTap: function (e) {
-    var that = this
-    WxSearch.wxSearchHiddenPancel(that);
   },
 
   /**

@@ -1,7 +1,6 @@
 {
   "navigationBarTitleText": "我关注的店铺",
   "usingComponents": {
-    "wux-cell-group": "../../dist/cell-group/index",
     "wux-cell": "../../dist/cell/index"
   }
 }
