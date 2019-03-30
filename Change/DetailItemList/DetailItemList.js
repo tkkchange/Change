@@ -4,14 +4,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    name:'商家详情'
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    console.log(options);
+    wx.setNavigationBarTitle({
+      title: options.name
+    })
   },
 
   /**
