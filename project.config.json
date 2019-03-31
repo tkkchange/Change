@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 8,
+			"current": 9,
 			"list": [
 				{
 					"id": -1,
@@ -96,6 +96,13 @@
 					"id": -1,
 					"name": "Detail",
 					"pathName": "Change/DetailItemList/DetailItemList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "ofl",
+					"pathName": "Change/OrderFormList/OrderFormList",
 					"scene": null
 				}
 			]
