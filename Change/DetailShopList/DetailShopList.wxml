@@ -78,3 +78,13 @@
   <button class='coupon-button'>立即领取优惠券</button>
 </view>
 <!-- 领取优惠券按钮结束 -->
+
+<!-- 课程信息开始 -->
+<view>
+  <block wx:for="{{bsnsInfo}}" wx:key="unique">
+    <navigator url="{{item.link}}?name={{item.name}}" hover-class="navigator-hover">
+      <storeIB img="{{item.img}}" name="{{item.name}}" ads="{{item.ads}}" grade="{{item.grade}}"/>
+    </navigator>  
+  </block>  
+</view>
+<!-- 课程信息结束 -->
