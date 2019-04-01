@@ -5,38 +5,52 @@ Page({
    */
   data: {
     /*课程信息组件*/
-    bsnsInfo: [
+    cusInfo: [
       {
         img: "../../../images/icon/first.png",
-        name: "商家1",
-        ads: "福建漳州招商局经济技术开发区厦门大学漳州校区",
-        grade: "1",
-        link: '../DetailShopList/DetailShopList'
-      }, {
+        name: "课程1",
+        tea: "老师A",
+        price: "198",
+        price_type: '/小时',
+        crowd: '18岁以上',
+        link: '../DetailItemList/DetailItemList'
+      },
+      {
         img: "../../../images/icon/first.png",
-        name: "商家2",
-        ads: "福建漳州招商局经济技术开发区厦门大学漳州校区",
-        grade: "2",
-        link: '../DetailShopList/DetailShopList'
-      }, {
+        name: "课程2",
+        tea: "老师B",
+        price: "98",
+        price_type: '/天',
+        crowd: '18岁以上',
+        link: '../DetailItemList/DetailItemList'
+      },
+      {
         img: "../../../images/icon/first.png",
-        name: "商家3",
-        ads: "福建漳州招商局经济技术开发区厦门大学漳州校区",
-        grade: "3",
-        link: '../DetailShopList/DetailShopList'
-      }, {
+        name: "课程3",
+        tea: "老师C",
+        price: "998",
+        price_type: '/节',
+        crowd: '18岁以上',
+        link: '../DetailItemList/DetailItemList'
+      },
+      {
         img: "../../../images/icon/first.png",
-        name: "商家4",
-        ads: "福建漳州招商局经济技术开发区厦门大学漳州校区",
-        grade: "4",
-        link: "../DetailShopList/DetailShopList"
-      }, {
+        name: "课程4",
+        tea: "老师D",
+        price: "298",
+        price_type: '/小时',
+        crowd: '18岁以上',
+        link: '../DetailItemList/DetailItemList'
+      },
+      {
         img: "../../../images/icon/first.png",
-        name: "商家5",
-        ads: "福建漳州招商局经济技术开发区厦门大学漳州校区",
-        grade: "5",
-        link: '../DetailShopList/DetailShopList'
-      }
+        name: "课程5",
+        tea: "老师E",
+        price: "398",
+        price_type: '/小时',
+        crowd: '18岁以上',
+        link: '../DetailItemList/DetailItemList'
+      }, 
     ]
   },
 

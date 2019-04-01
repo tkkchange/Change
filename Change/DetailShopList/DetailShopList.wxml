@@ -81,9 +81,9 @@
 
 <!-- 课程信息开始 -->
 <view>
-  <block wx:for="{{bsnsInfo}}" wx:key="unique">
+  <block wx:for="{{cusInfo}}" wx:key="unique">
     <navigator url="{{item.link}}?name={{item.name}}" hover-class="navigator-hover">
-      <storeIB img="{{item.img}}" name="{{item.name}}" ads="{{item.ads}}" grade="{{item.grade}}"/>
+      <courIB img="{{item.img}}" name="{{item.name}}" tea="{{item.tea}}" crowd="{{item.crowd}}" price="{{item.price}}" price_type="{{item.price_type}}"/>
     </navigator>  
   </block>  
 </view>
