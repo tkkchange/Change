@@ -17,6 +17,10 @@ Page({
         url: '../../images/First/3.jpg'
       }
     ],
+    indicatorDots: true,  //小点
+    autoplay: true,  //是否自动轮播
+    interval: 5000,  //间隔时间
+    duration: 3000,  //滑动时间
     /*商家信息组件*/
     bsnsInfo:[
       {

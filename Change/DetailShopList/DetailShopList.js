@@ -11,7 +11,7 @@ Page({
         name: "课程1",
         tea: "老师A",
         price: "198",
-        price_type: '/小时',
+        price_type: '元/小时',
         crowd: '18岁以上',
         link: '../DetailItemList/DetailItemList'
       },
@@ -20,7 +20,7 @@ Page({
         name: "课程2",
         tea: "老师B",
         price: "98",
-        price_type: '/天',
+        price_type: '元/天',
         crowd: '18岁以上',
         link: '../DetailItemList/DetailItemList'
       },
@@ -29,7 +29,7 @@ Page({
         name: "课程3",
         tea: "老师C",
         price: "998",
-        price_type: '/节',
+        price_type: '元/节',
         crowd: '18岁以上',
         link: '../DetailItemList/DetailItemList'
       },
@@ -38,7 +38,7 @@ Page({
         name: "课程4",
         tea: "老师D",
         price: "298",
-        price_type: '/小时',
+        price_type: '元/小时',
         crowd: '18岁以上',
         link: '../DetailItemList/DetailItemList'
       },
@@ -47,7 +47,7 @@ Page({
         name: "课程5",
         tea: "老师E",
         price: "398",
-        price_type: '/小时',
+        price_type: '元/小时',
         crowd: '18岁以上',
         link: '../DetailItemList/DetailItemList'
       }, 

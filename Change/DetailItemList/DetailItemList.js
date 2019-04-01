@@ -4,7 +4,23 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    /*图片轮播*/
+    imgUrls: [
+      {
+        link: '/pages/index/index',
+        url: '../../images/First/1.jpg'
+      }, {
+        link: '/pages/logs/logs',
+        url: '../../images/First/2.jpg'
+      }, {
+        link: '/pages/index/index',
+        url: '../../images/First/3.jpg'
+      }
+    ],
+    indicatorDots: true,  //小点
+    autoplay: true,  //是否自动轮播
+    interval: 5000,  //间隔时间
+    duration: 3000,  //滑动时间
   },
 
   /**
@@ -66,5 +82,10 @@ Page({
    */
   onShareAppMessage: function () {
     
+  },
+  purchase:function(e){
+    wx.navigateTo({
+      url: '../ConfirmConsume/ConfirmConsume',
+    })
   }
 })
