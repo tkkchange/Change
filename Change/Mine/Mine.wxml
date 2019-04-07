@@ -76,7 +76,7 @@
     <view style="flex:1;text-align-last:center">
       <navigator url="../MySpecialDiscoun/MySpecialDiscoun">
         <view class='layout_vertical'>
-          <icon type='info'></icon>
+          <icon src type='info'></icon>
           <text class="title">优惠券</text>
         </view>
       </navigator>

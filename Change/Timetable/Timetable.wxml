@@ -23,7 +23,11 @@
       </view>
     </block>
   </view>
-  
+  <!--浮动按钮 -->
+  <view bindtap='adddetial'>
+      <image class="add_icon" src="../../images/icon/calendar.png"></image>
+  </view>
+
   <!--轮播图 -->
   <view style='flex:1'>
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" vertical="{{isVertical}}" duration="{{duration}}" circular='false'>

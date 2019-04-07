@@ -36,6 +36,12 @@
         "selectedIconPath": "images/icon/time-selected.png"
       },
       {
+        "text": "消息",
+        "pagePath": "Change/Message/Message",
+        "iconPath": "images/icon/message.png",
+        "selectedIconPath": "images/icon/message-selected.png"
+      },
+      {
         "text": "我",
         "pagePath": "Change/Mine/Mine",
         "iconPath": "images/icon/me.png",

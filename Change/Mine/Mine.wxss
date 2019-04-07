@@ -19,9 +19,10 @@
 }
 
 .userinfo-nickname {
+  width: 200rpx;
   color: #000;
   margin: 20rpx;
-  border-radius: 50%;
+  overflow: hidden;
 }
 
 
@@ -57,4 +58,8 @@
 
 .page-button{
   margin: 10rpx;
+}
+.icon_style{
+  width: 10rpx;
+  height: 10rpx;
 }
