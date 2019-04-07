@@ -1,0 +1,95 @@
+<!-- 广告图片轮播开始 -->
+<swiper indicator-dots="{{indicatorDots}}"
+           autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
+         <block wx:for="{{imgUrls}}">  
+           <swiper-item>  
+              <navigator url="{{item.link}}" hover-class="navigator-hover">  
+               <image src="{{item.url}}" class="slide-image" width="355" height="150"/>  
+              </navigator>  
+           </swiper-item>  
+         </block>  
+</swiper>
+<!-- 广告图片轮播结束 -->
+
+<!-- 课程信息开始 -->
+<view class='cusinfo'>
+  <view class='cusinfo-line'>
+    <view class='cusinfo-line-left'>
+    老师：
+    </view>
+    <view class='cusinfo-line-right'>
+    教师A
+    </view>
+  </view>
+  <!-- 分割线 -->
+  <view class="container">
+    <view class="divLine"></view>
+  </view>
+  <view class='cusinfo-line'>
+    <view class='cusinfo-line-left'>
+    开课时间：
+    </view>
+    <view class='cusinfo-line-right'>
+    23333
+    </view>
+  </view>
+  <!-- 分割线 -->
+  <view class="container">
+    <view class="divLine"></view>
+  </view>
+  <view class='cusinfo-line'>
+    <view class='cusinfo-line-left'>
+    适合人群：
+    </view>
+    <view class='cusinfo-line-right'>
+    18+
+    </view>
+  </view>
+  <!-- 分割线 -->
+  <view class="container">
+    <view class="divLine"></view>
+  </view>
+  <view class='cusinfo-line'>
+    <view class='cusinfo-line-left'>
+    课程介绍：
+    </view>
+    <view class='cusinfo-line-right'>
+    水
+    </view>
+  </view>
+  <!-- 分割线 -->
+  <view class="container">
+    <view class="divLine"></view>
+  </view>
+  <view class='cusinfo-line'>
+    <view class='cusinfo-line-left'>
+    班级形式：
+    </view>
+    <view class='cusinfo-line-right'>
+    50人/班
+    </view>
+  </view>
+  <!-- 分割线 -->
+  <view class="container">
+    <view class="divLine"></view>
+  </view>
+  <view class='cusinfo-line'>
+    <view class='cusinfo-line-left'>
+    报名人数：
+    </view>
+    <view class='cusinfo-line-right'>
+    10/50
+    </view>
+  </view>
+  <!-- 分割线 -->
+  <view class="container">
+    <view class="divLine"></view>
+  </view>
+</view>
+<!-- 课程信息结束 -->
+
+<!-- 价钱+立即购买 -->
+<view class="sett">
+  <text class="sett-left">10000元/天</text>
+  <button class="sett-right" bindtap='purchase'>立即购买</button>
+</view>

@@ -1,1 +1,2 @@
 @import "../components/searchBox/index.wxss";
+@import "../components/storeInfoBox/index.wxss";

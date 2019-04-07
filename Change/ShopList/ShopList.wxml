@@ -5,7 +5,7 @@
 <!-- 广告图片轮播开始 -->
 <swiper indicator-dots="{{indicatorDots}}"
            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
-         <block wx:for="{{imgUrls}}">  
+         <block wx:for="{{imgUrls}}" wx:key="unique">  
            <swiper-item>  
               <navigator url="{{item.link}}" hover-class="navigator-hover">  
                <image src="{{item.url}}" class="slide-image" width="355" height="150"/>  
@@ -14,3 +14,13 @@
          </block>  
 </swiper>
 <!-- 广告图片轮播结束 -->
+
+<!-- 店铺信息开始 -->
+<view>
+  <block wx:for="{{bsnsInfo}}" wx:key="unique">
+    <navigator url="{{item.link}}?name={{item.name}}" hover-class="navigator-hover">
+      <storeIB img="{{item.img}}" name="{{item.name}}" ads="{{item.ads}}" grade="{{item.grade}}"/>
+    </navigator>  
+  </block>  
+</view>
+<!-- 店铺信息结束 -->

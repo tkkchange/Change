@@ -1,0 +1,32 @@
+<!-- 组件模板 -->
+<view class="wrapper">
+
+  <slot></slot>
+  <!-- 课程信息组件开始 -->
+    <view class='cus-whole'>
+      <!-- 课程图标 -->
+      <view class='cus-left'>
+        <image class='cus-left-img' src="{{img}}"/>
+      </view>
+      <view class='cus-center'>
+        <!-- 课程名称 -->
+        <view class='cus-center-1'>
+          <text   text-align='center'>{{name}}</text>
+        </view>
+        <!-- 老师名字 -->
+        <view class='cus-center-2'>
+          <text>{{tea}}</text>
+        </view>
+        <!-- 适合人群 -->
+        <view class='cus-center-3'>
+          <text>{{crowd}}</text>
+        </view>
+      </view>
+        <!-- 课程价格 -->
+      <view class='cus-right'>
+        <text>{{price}}</text>
+        <text>{{price_type}}</text>
+      </view>
+    </view>
+<!-- 课程信息组件结束 -->
+</view>
