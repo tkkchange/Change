@@ -15,7 +15,8 @@
     "Change/MyVip/MyVip",
     "Change/OrderFormList/OrderFormList",
     "Change/MySpecialDiscoun/MySpecialDiscoun",
-    "Change/Message/Message"
+    "Change/Message/Message",
+    "Change/ChangeData/ChangeData"    
   ],
 
   "tabBar":{
