@@ -4,7 +4,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-    hiddenName: true
+    hiddenName: true,
+
+    msd:[
+      {
+        number:8.8,
+        title:"AAA舞蹈房",
+        date:"2019-01-14",
+        hide:"可到了拉萨\n几点开始垃圾大理石空间的"
+      },
+      {
+        number: 8.8,
+        title: "BBB舞蹈房",
+        date: "2019-01-14",
+        hide: "可到了拉萨\n几点开始垃圾大理石空间的"}
+    ]
   },
   clickme: function (e) {
     this.setData({

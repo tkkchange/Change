@@ -1,14 +1,4 @@
-.search_arr {  
-  border: 1px solid #d0d0d0;  
-  border-radius: 30rpx;  
-  margin-left: 20%; 
-  margin-right: 20%; 
-}  
-.search_arr input{  
-  margin-left: 30rpx;  
-  height: 60rpx;  
-  border-radius: 5px;  
-}  
+
 .order{
  /* border: 1px solid red;*/
   height: 450rpx;

@@ -1,13 +1,13 @@
 <view>
     <view class="title">
-       可用优惠<text>(6张)</text>
+       可用优惠<text>{{msd.length}}</text>
     </view>
   <view>
-    <view class="discount">
-       <view class="number">8.8折</view>
+    <view class="discount" wx:for="{{msd}}" wx:key="unique">
+       <view class="number">{{item.number}}折</view>
        <view class="center">
-          <text class="center_title">XXX舞蹈房</text>
-          <text class="center_date">有效期至2019-01-14</text>
+          <text class="center_title">{{item.title}}</text>
+          <text class="center_date">有效期至{{item.date}}</text>
        </view>
        <view>
          <checkbox/>
@@ -18,7 +18,7 @@
     
     </view>
     <view hidden="{{hiddenName}}" class="hideview">
-       <text>可到了拉萨\n几点开始垃圾大理石空间的</text>
+       <text>{{item.hide}}</text>
     </view>
  </view>
  
