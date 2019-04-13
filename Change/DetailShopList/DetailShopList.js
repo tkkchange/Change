@@ -1,3 +1,4 @@
+import { $wuxToast } from '../../dist/index'
 Page({
 
   /**
@@ -73,6 +74,19 @@ Page({
     
   },
 
+  showToast: function() {
+    $wuxToast().show({
+      type: 'success',
+      duration: 1500,
+      color: '#fff',
+      text: '已关注',
+    })
+  },
+  bindmap: function(){
+    wx.navigateTo({
+      url: '../Map/Map',
+    })
+  },
   /**
    * 生命周期函数--监听页面显示
    */

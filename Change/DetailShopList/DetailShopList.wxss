@@ -121,20 +121,22 @@
   flex-direction: row;
   width: calc(30%);
   height: calc(100%);
-  margin: auto;
+  display: flex;
+  align-content: flex-end;
 }
 .bsnsInfo-whole .bsnsInfo-bottom .bsnsInfo-bottom-left{
   display: flex;
-  width: calc(70%);
+  width: calc(60%);
   height: calc(100%);
   overflow: hidden;
 }
 .bsnsInfo-whole .bsnsInfo-bottom .bsnsInfo-bottom-right{
   display: flex;
   flex-direction: row;
-  width: auto;
+  width: calc(40%);
   height: calc(100%);
-  margin: auto;
+  display: flex;
+  align-content: flex-end;
 }
 .bsnsInfo-text-a{
   font-size: 40rpx;
@@ -142,12 +144,22 @@
 }
 .bsnsInfo-text-b{
   font-size: 30rpx;
-  margin:  auto auto auto 0;
 }
 .bsnsInfo-img{
   width: 40rpx;
   height: 40rpx;
   margin: auto;
+}
+.btn-text{
+  font-size: 30rpx;
+
+  background-color: white;
+  border: none;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 /*-----------------*/
 .coupon-view{
