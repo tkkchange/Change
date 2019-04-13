@@ -69,6 +69,13 @@
  margin-left: 10prx; 
  height: 3rpx;
 }
+.divLine-p{
+ background: rgb(214, 214, 214);
+ width: 550rpx;
+ margin-left: 100rpx; 
+ margin-left: 100prx; 
+ height: 3rpx;
+}
 /*-----------------*/
 .icon-collection{
   position: fixed;
@@ -76,4 +83,15 @@
   height:100rpx;
   bottom: 150rpx;
   right: 20rpx;
+}
+/*-----------------*/
+.info-head{
+  height: 80rpx;
+  width: calc(94%);
+  margin-left: calc(3%);
+  margin-right: calc(3%);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: grey;
 }
