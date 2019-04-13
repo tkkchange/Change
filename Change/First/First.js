@@ -21,6 +21,10 @@ Page({
         url: '../../images/First/3.jpg'
       }
     ],
+    indicatorDots: true,  //小点
+    autoplay: true,  //是否自动轮播
+    interval: 5000,  //间隔时间
+    duration: 3000,  //滑动时间
     /*类别推荐*/
     mItem:[
       {
@@ -64,11 +68,7 @@ Page({
         name: '商家C',
         intro:"One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
       }
-    ],
-    indicatorDots: true,  //小点
-    autoplay: true,  //是否自动轮播
-    interval: 5000,  //间隔时间
-    duration: 3000,  //滑动时间
+    ]
 
     /*搜索框传值*/
 

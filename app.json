@@ -1,8 +1,9 @@
 {
   "pages":
   [
-    "Change/Calendar/Calendar",
     "Change/First/First",
+    "Change/Calendar/Calendar",
+    "Change/DetailItemList/DetailItemList",
     "Change/Mine/Mine",
     "Change/Timetable/Timetable",
     "Change/SubShop/SubShop",
@@ -15,7 +16,9 @@
     "Change/MyVip/MyVip",
     "Change/OrderFormList/OrderFormList",
     "Change/MySpecialDiscoun/MySpecialDiscoun",
-    "Change/Message/Message"
+    "Change/Message/Message",
+    "Change/ChangeData/ChangeData" , 
+    "Change/DetailShopList/DetailShopList"
   ],
 
   "tabBar":{
