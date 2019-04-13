@@ -33,9 +33,11 @@
 .sett{
   width: calc(100%);
   height: calc(80rpx);
-  margin-top: 50rpx;
+  padding-bottom: calc(2%);
   display: flex;
-  flex-direction: row;
+
+  position:fixed; 
+  bottom:0; 
 }
 .sett-left{
   width: calc(47%);
@@ -66,4 +68,12 @@
  margin-left: 10rpx; 
  margin-left: 10prx; 
  height: 3rpx;
+}
+/*-----------------*/
+.icon-collection{
+  position: fixed;
+  width:100rpx;
+  height:100rpx;
+  bottom: 150rpx;
+  right: 20rpx;
 }

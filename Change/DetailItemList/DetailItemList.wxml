@@ -93,3 +93,12 @@
   <text class="sett-left">10000元/天</text>
   <button class="sett-right" bindtap='purchase'>立即购买</button>
 </view>
+
+
+<!-- 悬浮收藏开始 -->
+<view bindtap='collection'>
+  <image class="icon-collection" src="../../images/icon/collection.png"></image>
+</view>
+<!-- 悬浮收藏结束 -->
+
+<wux-toast id="wux-toast" />
