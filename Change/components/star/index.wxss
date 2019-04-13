@@ -1,0 +1,14 @@
+.star-level{
+  width: 150rpx;
+  height: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.star-img{
+  width: 30rpx;
+  height: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}

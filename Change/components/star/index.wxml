@@ -1,0 +1,19 @@
+<!-- 组件模板 -->
+<view class="wrapper">
+
+  <slot></slot>
+  <!-- 星级评分组件开始 -->
+  <view class='star-level'>
+    <block wx:if='{{grade > 0}}'>
+      <block wx:for='{{grade}}' wx:key='unique'>
+        <image class='star-img' src='../../../images/star/star_y.png'/>
+      </block>
+    </block>
+    <block wx:if='{{grade < 5}}'>
+      <block wx:for='{{5-grade}}' wx:key="unique">
+        <image mode='aspectFit' class='star-img' src='../../../images/star/star_g.png'/>
+      </block>
+    </block>
+  </view>
+<!-- 星级评分组件结束 -->
+</view>

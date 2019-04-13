@@ -24,6 +24,7 @@ Page({
     this.setData({
       time: time
     });
+    //日历样式表
     const days_count = new Date(this.data.year, this.data.month, 0).getDate();
     let demo4_days_style = new Array;
     for (let i = 1; i <= days_count; i++) {

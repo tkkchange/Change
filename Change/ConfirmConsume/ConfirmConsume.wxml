@@ -20,11 +20,14 @@
                 <text class='word'>2、xxx</text>
             </wux-col>
         </wux-row>
-
-
+</view>
+<!--上下留白-->
 <wux-white-space size="large" />
 <wux-white-space size="large" />
-    </view>
+<!--两翼留白-->
+    <wux-wing-blank size="default">
+    <!--原来的表格形式-->
+    <!--
      <view class="table">
       <view class="tr" >
           <view class="td td1">姓名</view>
@@ -43,10 +46,23 @@
           <view class="td td3">xxx</view>
       </view>
     </view>
+    -->
+    
+      <wux-cell-group title="信息">
+            <wux-cell hover-class="none">
+                <wux-input disabled label="姓名" />
+            </wux-cell>
+            <wux-cell hover-class="none">
+                <wux-input disabled label="联系电话" defaultValue="12345678" />
+            </wux-cell>
+        </wux-cell-group>
+    </wux-wing-blank>
+
 <view class='btm_view'>
         <wux-row>
             <wux-col span="6">
-                <view class="placeholder">总价：</view>
+            <wux-white-space size="large" />
+                <view class="main">总价：{{price}}</view>
             </wux-col>
             <wux-col span="6">
                 <view class="placeholder"><wux-button block type="assertive" bindtap='' >立即购买</wux-button></view>

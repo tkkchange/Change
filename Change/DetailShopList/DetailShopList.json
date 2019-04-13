@@ -1,3 +1,6 @@
 {
-  
+  "navigationBarTitleText": "商家详情",
+  "usingComponents": {
+    "courIB": "../components/courInfoBox/index"
+  }
 }

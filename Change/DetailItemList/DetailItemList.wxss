@@ -1,0 +1,69 @@
+.cusinfo{
+  width: calc(100%);
+  height: calc(480rpx);
+  display: flex;
+  flex-direction: column;
+}
+.cusinfo-line{
+  width: calc(100%);
+  height: calc(80rpx);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cusinfo-line-left{
+  width: calc(47%);
+  height: calc(70rpx);
+  margin-right: calc(3%);
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cusinfo-line-right{
+  width: calc(47%);
+  height: calc(70rpx);
+  margin-left: calc(3%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*----------------*/
+.sett{
+  width: calc(100%);
+  height: calc(80rpx);
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+}
+.sett-left{
+  width: calc(47%);
+  height: calc(80rpx);
+  margin-left: calc(2%);
+  margin-right: calc(1%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sett-right{
+  width: calc(47%);
+  height: calc(80rpx);
+  margin-left: calc(1%);
+  margin-right: calc(2%);
+  background-color: red;
+  color:whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*-----------------*/
+.divLine{
+ background: rgb(214, 214, 214);
+ width: 730rpx;
+ margin-left: 10rpx; 
+ margin-left: 10prx; 
+ height: 3rpx;
+}

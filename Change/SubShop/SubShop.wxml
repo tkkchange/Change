@@ -1,5 +1,5 @@
 <view >
-    <wux-cell  is-link url="/Change/ChangeData/ChangeData" thumb="/images/First/1.jpg"  title="我的" extra="说明文字1"></wux-cell>
-    <wux-cell  is-link url="/Change/Calendar/Calendar" thumb="/images/First/2.jpg" title="日历" extra="说明文字2"></wux-cell> 
-
+  <block wx:for="{{datalist}}" wx:key="unique">
+    <wux-cell  is-link url="{{item.url}}" thumb="{{item.img}}"  title="{{item.title}}" extra="{{item.extra}}"></wux-cell>
+  </block>
 </view>
