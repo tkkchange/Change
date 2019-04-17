@@ -1,3 +1,4 @@
+import { $wuxToast } from '../../dist/index'
 Page({
 
   /**
@@ -86,6 +87,15 @@ Page({
   purchase:function(e){
     wx.navigateTo({
       url: '../ConfirmConsume/ConfirmConsume',
+    })
+  },
+  //收藏
+  collection: function () {
+    $wuxToast().show({
+      type: 'success',
+      duration: 1500,
+      color: '#fff',
+      text: '已收藏',
     })
   }
 })

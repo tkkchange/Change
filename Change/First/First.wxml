@@ -5,7 +5,7 @@
 <!-- 广告图片轮播开始 -->
 <swiper indicator-dots="{{indicatorDots}}"
            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
-         <block wx:for="{{imgUrls}}">  
+         <block wx:for="{{imgUrls}}" wx:key=''>  
            <swiper-item>  
               <navigator url="{{item.link}}" hover-class="navigator-hover">  
                <image src="{{item.url}}" class="slide-image" width="355" height="150"/>  
@@ -17,7 +17,7 @@
 
 <!-- 热门类目展示开始 -->
 <view class="Category">
-  <block wx:for="{{mItem}}">
+  <block wx:for="{{mItem}}" wx:key=''>
     <navigator url="{{item.link}}">
       <button class='btn1'>
           <image class='btnImg' src="{{item.imgurl}}"></image>
@@ -35,7 +35,7 @@
 
 <!-- 推荐商家开始 -->
 <view>
-  <block wx:for="{{busiList}}">
+  <block wx:for="{{busiList}}" wx:key=''>
     <navigator url="{{item.link}}">
       <piBox img="{{item.imgUrl}}" name="{{item.name}}" intro="{{item.intro}}"/>
     </navigator>

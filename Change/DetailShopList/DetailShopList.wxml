@@ -51,10 +51,10 @@
     </view>
     <!-- 收藏按钮 -->
     <view class='bsnsInfo-top-riht'>
-      <navigator>
-        <image class='.bsnsInfo-img' src='../../images/detailitemlist/collection.png'/>
-        <text  class='bsnsInfo-text-b'>收藏</text>
-      </navigator>
+      <button class='btn-text' bindtap="showToast">
+        <image class='bsnsInfo-img' src='../../images/detailitemlist/collection.png'/>
+        关注
+      </button>
     </view>
   </view>
   <view class='bsnsInfo-bottom'>
@@ -64,10 +64,10 @@
     </view>
     <!-- 导航/地图 -->
     <view class='bsnsInfo-bottom-right'>
-      <navigator url='../Map/Map'>
-        <text class='bsnsInfo-text-b'>导航/地图</text>
-        <image class='.bsnsInfo-img' src='../../images/detailitemlist/position.png'/>
-      </navigator>
+      <button class='btn-text' bindtap='bindmap'>
+        <image class='bsnsInfo-img' src='../../images/detailitemlist/position.png'/>
+        导航/地图
+      </button>
     </view>
   </view>
 </view>
@@ -88,3 +88,5 @@
   </block>  
 </view>
 <!-- 课程信息结束 -->
+
+<wux-toast id="wux-toast" />

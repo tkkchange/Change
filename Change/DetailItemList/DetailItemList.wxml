@@ -11,6 +11,15 @@
 </swiper>
 <!-- 广告图片轮播结束 -->
 
+<!-- 基本资料开头 -->
+<view class='info-head'>
+  <text>基本资料</text>
+</view>
+<!-- 分割线 -->
+<view class="container">
+  <view class="divLine"></view>
+</view>
+
 <!-- 课程信息开始 -->
 <view class='cusinfo'>
   <view class='cusinfo-line'>
@@ -23,7 +32,7 @@
   </view>
   <!-- 分割线 -->
   <view class="container">
-    <view class="divLine"></view>
+    <view class="divLine-p"></view>
   </view>
   <view class='cusinfo-line'>
     <view class='cusinfo-line-left'>
@@ -35,7 +44,7 @@
   </view>
   <!-- 分割线 -->
   <view class="container">
-    <view class="divLine"></view>
+    <view class="divLine-p"></view>
   </view>
   <view class='cusinfo-line'>
     <view class='cusinfo-line-left'>
@@ -47,7 +56,7 @@
   </view>
   <!-- 分割线 -->
   <view class="container">
-    <view class="divLine"></view>
+    <view class="divLine-p"></view>
   </view>
   <view class='cusinfo-line'>
     <view class='cusinfo-line-left'>
@@ -59,7 +68,7 @@
   </view>
   <!-- 分割线 -->
   <view class="container">
-    <view class="divLine"></view>
+    <view class="divLine-p"></view>
   </view>
   <view class='cusinfo-line'>
     <view class='cusinfo-line-left'>
@@ -71,7 +80,7 @@
   </view>
   <!-- 分割线 -->
   <view class="container">
-    <view class="divLine"></view>
+    <view class="divLine-p"></view>
   </view>
   <view class='cusinfo-line'>
     <view class='cusinfo-line-left'>
@@ -83,7 +92,7 @@
   </view>
   <!-- 分割线 -->
   <view class="container">
-    <view class="divLine"></view>
+    <view class="divLine-p"></view>
   </view>
 </view>
 <!-- 课程信息结束 -->
@@ -93,3 +102,12 @@
   <text class="sett-left">10000元/天</text>
   <button class="sett-right" bindtap='purchase'>立即购买</button>
 </view>
+
+
+<!-- 悬浮收藏开始 -->
+<view bindtap='collection'>
+  <image class="icon-collection" src="../../images/icon/collection.png"></image>
+</view>
+<!-- 悬浮收藏结束 -->
+
+<wux-toast id="wux-toast" />

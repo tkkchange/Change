@@ -4,6 +4,26 @@ Page({
    * 页面的初始数据
    */
   data: {
+    orderforminfo:[
+      {
+         titlename:"AAA舞蹈房",
+         titlestate:"待付款",
+         imgsrc:"../../images/First/1.jpg",
+         teacherinfo:"xx老师XX课程",
+         classinfo:"课程介绍：\n巴拉巴拉觉得老看见撒开了多久ask来得及萨拉丁德里克啥的离开洒家灯笼裤洒家德里克的就是康拉德吉萨看来大家拉克丝角度来看的解散啦空间的里的撒",
+         priceinfo:22.4,
+         numinfo:1
+      },
+      {
+        titlename: "BBB舞蹈房",
+        titlestate: "待付款",
+        imgsrc: "../../images/First/1.jpg",
+        teacherinfo: "xx老师XX课程",
+        classinfo: "课程介绍：\n巴拉巴拉觉得老看见撒开了多久ask来得及萨拉丁德里克啥的离开洒家灯笼裤洒家德里克的就是康拉德吉萨看来大家拉克丝角度来看的解散啦空间的里的撒",
+        priceinfo: 22.4,
+        numinfo: 1
+      }
+    ]
     
   },
 

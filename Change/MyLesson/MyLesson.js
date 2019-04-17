@@ -4,6 +4,18 @@ Page({
    * 页面的初始数据
    */
   data: {
+    mylesson:[
+      {
+        title:"AAA舞蹈房",
+        imgsrc:"../../images/First/1.jpg",
+        lesson:"大时代设计大赛看来",
+        date:"YYYY-MM-DD"
+      }, {
+        title: "BBB舞蹈房",
+        imgsrc: "../../images/First/1.jpg",
+        lesson: "大时代设计大赛看来",
+        date: "YYYY-MM-DD"}
+    ]
     
   },
 
