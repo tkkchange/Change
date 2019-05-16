@@ -81,5 +81,10 @@ Page({
    */
   onShareAppMessage: function () {
     
-  }
+  },
+  consume: function () {
+    wx.navigateTo({
+      url: '../ConfirmConsume/ConfirmConsume',
+    })
+  },
 })

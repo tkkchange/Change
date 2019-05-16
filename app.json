@@ -1,6 +1,5 @@
 {
-  "pages":
-  [
+  "pages": [
     "Change/First/First",
     "Change/Calendar/Calendar",
     "Change/DetailItemList/DetailItemList",
@@ -17,17 +16,16 @@
     "Change/OrderFormList/OrderFormList",
     "Change/MySpecialDiscoun/MySpecialDiscoun",
     "Change/Message/Message",
-    "Change/ChangeData/ChangeData" , 
+    "Change/ChangeData/ChangeData",
     "Change/DetailShopList/DetailShopList"
   ],
-
-  "tabBar":{
-    "list":[
+  "tabBar": {
+    "list": [
       {
-        "text":"首页",
-        "pagePath":"Change/First/First",
-        "iconPath":"images/icon/first.png",
-        "selectedIconPath":"images/icon/first-selected.png"
+        "text": "首页",
+        "pagePath": "Change/First/First",
+        "iconPath": "images/icon/first.png",
+        "selectedIconPath": "images/icon/first-selected.png"
       },
       {
         "text": "课程表",
@@ -49,9 +47,9 @@
       }
     ]
   },
-  "window":{
-    "navigationBarBackgroundColor":"#fff",
-    "navigationBarTextStyle": "black"        
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
   },
   "plugins": {
     "calendar": {
@@ -63,5 +61,6 @@
     "scope.userLocation": {
       "desc": "你的位置信息将用于小程序位置接口的效果展示"
     }
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

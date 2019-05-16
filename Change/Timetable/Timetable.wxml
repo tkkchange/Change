@@ -25,7 +25,7 @@
   </view>
   <!--浮动按钮 -->
   <view bindtap='adddetial'>
-      <image class="add_icon" src="../../images/icon/calendar.png"></image>
+      <image class="add_icon" src="../../images/icon/cal.png"></image>
   </view>
 
   <!--轮播图 -->

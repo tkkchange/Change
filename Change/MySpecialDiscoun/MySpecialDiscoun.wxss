@@ -5,9 +5,7 @@
   text-align: center;
   font-size: 13px;
 }
-.title text{
-  color:lightblue;
-}
+
 .discount{
   border: 3px solid lightblue;
   margin: 15px;

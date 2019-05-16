@@ -101,5 +101,16 @@ Page({
    */
   onShareAppMessage: function () {
     
+  },
+
+  //显示toast
+   showToast() {
+    $wuxToast().show({
+      type: 'text',
+      duration: 1500,
+      color: '#fff',
+      text: '尚未领取优惠券哦qwq',
+      success: () => console.log('文本提示')
+    })
   }
 })

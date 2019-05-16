@@ -34,14 +34,6 @@
       </navigator>
     </view>
 
-    <view style="flex:1;text-align-last:center">
-      <navigator url="../RecentBrowse/RecentBrowse">
-        <view class='layout_vertical'>
-          <text class="title">最近浏览</text>
-          <text class="title">4</text>
-        </view>
-      </navigator>
-    </view>
 
   </view>
   <!-- view3 -->
@@ -49,41 +41,36 @@
     <view style="flex:1;text-align-last:center">
       <navigator url="../MyLesson/MyLesson">
         <view class='layout_vertical'>
-        <icon type='info'></icon>
+         <image class='btnImg' src="../../images/icon/course.png"></image>
           <text class="title">我的课程</text>
         </view>
       </navigator>
     </view>
 
-    <view style="flex:1;text-align-last:center">
-      <navigator url="../MyVip/MyVip">
-        <view class='layout_vertical'>
-        <icon type='info'></icon>
-          <text class="title">我的会员</text>
-        </view>
-      </navigator>
-    </view>
-
+    
     <view style="flex:1;text-align-last:center">
       <navigator url="../OrderFormList/OrderFormList">
         <view class='layout_vertical'>
-          <icon type='info'></icon>
+          <image class='btnImg' src="../../images/icon/order.png"></image>
           <text class="title">我的订单</text>
         </view>
       </navigator>
     </view>
 
+   
     <view style="flex:1;text-align-last:center">
       <navigator url="../MySpecialDiscoun/MySpecialDiscoun">
         <view class='layout_vertical'>
-          <icon src type='info'></icon>
+          <image class='btnImg' src="../../images/icon/yhq.png"></image>
           <text class="title">优惠券</text>
         </view>
       </navigator>
+
     </view>
+
 
   </view>
   <view>
-    <button>关于我们</button>
-  </view>
+     <wux-button block type="stable" class='AboutUs_btn' >关于我们</wux-button>
+</view>
 </view>

@@ -1,7 +1,9 @@
 <view>
     <view class="title">
-       可用优惠<text>{{msd.length}}</text>
+       可用优惠:<text>{{msd.length}}</text>
     </view>
+
+    <!--
   <view>
     <view class="discount" wx:for="{{msd}}" wx:key="unique">
        <view class="number">{{item.number}}折</view>
@@ -15,11 +17,11 @@
            使用规则
          </view>
        </view>
-    
+   
     </view>
     <view hidden="{{hiddenName}}" class="hideview">
        <text>{{item.hide}}</text>
     </view>
  </view>
- 
+  -->
 </view>

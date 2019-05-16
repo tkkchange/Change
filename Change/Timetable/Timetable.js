@@ -56,9 +56,6 @@ Page({
   },
 
   adddetial: function () {
-
-
-
     wx.navigateTo({
 
       url: '../Calendar/Calendar',

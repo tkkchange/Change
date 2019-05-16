@@ -63,3 +63,32 @@
   width: 10rpx;
   height: 10rpx;
 }
+.btnImg {
+  display: flex;
+  margin-top: 15rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.btn1{
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 5rpx;
+  background-color: white;
+  color: #999999;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+.Category{
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+}
+.AboutUs_btn{
+ width:100%;
+ position:fixed; 
+ bottom:150; 
+}

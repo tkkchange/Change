@@ -20,6 +20,6 @@
       </view>
       <view class="order_btninfo">
          <button class="btn_del"><text class="btn_txt">删除订单</text></button>
-         <button class="btn_pay"><text class="btn_txt">立即付款</text></button>
+         <button class="btn_pay" bindtap="consume"><text class="btn_txt">立即付款</text></button>
       </view>
 </view>
