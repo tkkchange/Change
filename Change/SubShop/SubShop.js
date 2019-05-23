@@ -8,13 +8,13 @@ Page({
       {
         title:"第一家店铺",
         img:"/images/First/1.jpg",
-        url:"/Change/ChangeData/ChangeData",
+        url:"/Change/DetailShopList/DetailShopList",
         extra:"文字说明1"
       },
       {
         title: "第二家店铺",
         img: "/images/First/2.jpg",
-        url: "/Change/Calendar/Calendar",
+        url: "/Change/DetailShopList/DetailShopList",
         extra: "文字说明2"
       }
     ]

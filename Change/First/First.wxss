@@ -1,13 +1,12 @@
 @import "../components/searchBox/index.wxss";
 @import "../components/picInforBox/index.wxss";
-@import "../components/storeInfoBox/index.wxss";
 /*-----------------*/
 .btn1{
   width: 150rpx;
   height: 150rpx;
   margin-top: 5rpx;
   background-color: white;
-  color: #999999;
+  color: #030000;
   border-radius: 0rpx;
   display: flex;
   flex-direction: column;

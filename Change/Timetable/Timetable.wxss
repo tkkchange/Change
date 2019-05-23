@@ -53,6 +53,7 @@ display: none;
 
 .navigator-text {
 flex: 1;
+font-size: 27rpx
 }
 
 .navigator-arrow {
@@ -89,6 +90,7 @@ margin-top: 0;
  
 .kind-list-text {
 flex: 1;
+font-size: 30rpx;
 }
 
 .kind-list-img {

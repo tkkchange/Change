@@ -4,41 +4,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-    list: [{
-      id: 'view',
-      name: '课程1',
-      open: false,
-      pages: ['价格：','地点:','截至日期：']
-    }, {
-      id: 'content',
-      name: '课程2',
-      open: false,
-      pages: ['价格：', '地点:', '截至日期：']
-    }, {
-      id: 'form',
-      name: '课程3',
-      open: false,
-      pages: ['价格：', '地点:', '截至日期：']
-    }],
-  },
-  kindToggle(e) {
-    const id = e.currentTarget.id
-    const list = this.data.list
-    for (let i = 0, len = list.length; i < len; ++i) {
-      if (list[i].id === id) {
-        list[i].open = !list[i].open
-      } else {
-        list[i].open = false
+    datalist: [
+      {
+        title: "第一节课程",
+        img: "/images/First/1.jpg",
+        url: "/Change/DetailItemList/DetailItemList",
+        extra: "文字说明1"
+      },
+      {
+        title: "第二节课程",
+        img: "/images/First/2.jpg",
+        url: "/Change/DetailItemList/DetailItemList",
+        extra: "文字说明2"
       }
-    }
-    /**
-    * key和value名称一样时，可以省略
-    * 
-    * list:list=>list
-    */
-    this.setData({
-      list
-    })
+    ]
+
   },
 
   /**

@@ -24,7 +24,7 @@
     </block>
   </view>
   <!--浮动按钮 -->
-  <view bindtap='adddetial'>
+  <view bindtap='adddetail'>
       <image class="add_icon" src="../../images/icon/cal.png"></image>
   </view>
 

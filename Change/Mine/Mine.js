@@ -1,3 +1,4 @@
+import { $wuxToast } from '../../dist/index'
 const app = getApp()
 Page({
 
@@ -5,6 +6,35 @@ Page({
    * 页面的初始数据
    */
   data: {
+    aItem:[
+      {
+        name: '关注店铺',
+        number: 10,
+        link: "../SubShop/SubShop"
+      },
+      {
+        name: '收藏课程',
+        number: 4,
+        link: "../ValuedLesson/ValuedLesson"
+      }
+    ],
+    mItem: [
+      {
+        name: '我的课程',
+        imgurl: '../../images/icon/course.png',
+        link: "../MyLesson/MyLesson"
+      },
+      {
+        name: '我的订单',
+        imgurl: '../../images/icon/order.png',
+        link: "../OrderFormList/OrderFormList"
+      },
+      {
+        name: '我的优惠券',
+        imgurl: '../../images/icon/yhq.png',
+        link: "../MySpecialDiscoun/MySpecialDiscoun"
+      },
+    ],
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -104,13 +134,13 @@ Page({
   },
 
   //显示toast
-   showToast() {
+  showToast() {
     $wuxToast().show({
-      type: 'text',
-      duration: 1500,
+      duration: 4000,
       color: '#fff',
-      text: '尚未领取优惠券哦qwq',
-      success: () => console.log('文本提示')
+      text: '有任何建议请联系微信：paul-0823，感谢',
+      success: function () {
+      }
     })
   }
 })

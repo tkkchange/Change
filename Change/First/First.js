@@ -78,7 +78,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('onLoad')
+    wx.showToast({
+      title: '加载中...',
+      icon: 'loading',
+      duration: 500,
+      mask: true
+    })
   },
 
   /**

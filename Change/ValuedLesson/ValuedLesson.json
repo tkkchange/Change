@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "收藏课程",
-  "usingComponents": {}
+  "usingComponents": {
+    "wux-cell": "../../dist/cell/index"
+  }
 }

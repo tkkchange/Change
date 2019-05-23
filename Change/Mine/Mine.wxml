@@ -14,63 +14,34 @@
   </view>
 
   <!-- view2 -->
-  <view class='layout_horizontal'>
+  <view class='Category'>
 
-    <view style="flex:1;text-align-last:center">
-      <navigator url="../SubShop/SubShop">
-        <view class='layout_vertical'>
-          <text class="title">关注店铺</text>
-          <text class="title">10</text>
-        </view>
-      </navigator>
-    </view>
-
-    <view style="flex:1;text-align-last:center">
-      <navigator url="../ValuedLesson/ValuedLesson">
-        <view class='layout_vertical'>
-          <text class="title">收藏课程</text>
-          <text class="title">4</text>
-        </view>
-      </navigator>
-    </view>
-
-
+    <block wx:for="{{aItem}}" wx:key=''>
+    <navigator url="{{item.link}}">
+      <button class='btn2'>
+          <text>{{item.name}}</text>
+          <text>{{item.number}}</text>
+      </button>
+    </navigator>
+  </block>
   </view>
+
+
   <!-- view3 -->
-  <view class='layout_horizontal'>
-    <view style="flex:1;text-align-last:center">
-      <navigator url="../MyLesson/MyLesson">
-        <view class='layout_vertical'>
-         <image class='btnImg' src="../../images/icon/course.png"></image>
-          <text class="title">我的课程</text>
-        </view>
-      </navigator>
-    </view>
-
-    
-    <view style="flex:1;text-align-last:center">
-      <navigator url="../OrderFormList/OrderFormList">
-        <view class='layout_vertical'>
-          <image class='btnImg' src="../../images/icon/order.png"></image>
-          <text class="title">我的订单</text>
-        </view>
-      </navigator>
-    </view>
-
-   
-    <view style="flex:1;text-align-last:center">
-      <navigator url="../MySpecialDiscoun/MySpecialDiscoun">
-        <view class='layout_vertical'>
-          <image class='btnImg' src="../../images/icon/yhq.png"></image>
-          <text class="title">优惠券</text>
-        </view>
-      </navigator>
-
-    </view>
+  <view class="Category">
+  <block wx:for="{{mItem}}" wx:key=''>
+    <navigator url="{{item.link}}">
+      <button class='btn1'>
+          <image class='btnImg' src="{{item.imgurl}}"></image>
+          <text>{{item.name}}</text>
+      </button>
+    </navigator>
+  </block>
+  </view>
 
 
   </view>
-  <view>
-     <wux-button block type="stable" class='AboutUs_btn' >关于我们</wux-button>
-</view>
+  <wux-toast id="wux-toast" />
+<view>
+     <wux-button block type="stable" class='AboutUs_btn' bind:click="showToast">确认修改</wux-button>
 </view>

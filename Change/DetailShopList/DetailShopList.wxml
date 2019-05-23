@@ -49,7 +49,7 @@
     <view class='bsnsInfo-top-left'>
       <text  class='bsnsInfo-text-a'>xxx舞蹈房</text>
     </view>
-    <!-- 收藏按钮 -->
+    <!-- 关注按钮 -->
     <view class='bsnsInfo-top-riht'>
       <button class='btn-text' bindtap="showToast">
         <image class='bsnsInfo-img' src='../../images/detailitemlist/collection.png'/>
@@ -75,7 +75,7 @@
 
 <!-- 领取优惠券按钮开始 -->
 <view class='coupon-view'>
-  <button class='coupon-button'>立即领取优惠券</button>
+  <button class='coupon-button' bindtap='showToast1'>立即领取优惠券</button>
 </view>
 <!-- 领取优惠券按钮结束 -->
 

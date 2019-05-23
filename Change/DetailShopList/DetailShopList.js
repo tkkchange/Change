@@ -82,6 +82,17 @@ Page({
       text: '已关注',
     })
   },
+  /**显示优惠券不能领取的toast*/
+  showToast1() {
+    $wuxToast().show({
+      type: 'failed',
+      duration: 1500,
+      color: '#fff',
+      text: '暂无优惠券领取~',
+      success: function () {
+      }
+    })
+  },
   bindmap: function(){
     wx.navigateTo({
       url: '../Map/Map',
