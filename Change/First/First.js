@@ -12,13 +12,13 @@ Page({
     imgUrls: [
       {
         link: '/pages/index/index',
-        url: '../../images/First/1.jpg'
+        url: '../../images/shoplist/1.png'
       }, {
         link: '/pages/logs/logs',
-        url: '../../images/First/2.jpg'
+        url: '../../images/shoplist/1.png'
       }, {
         link: '/pages/index/index',
-        url: '../../images/First/3.jpg'
+        url: '../../images/shoplist/1.png'
       }
     ],
     indicatorDots: true,  //小点
@@ -33,8 +33,18 @@ Page({
         link:"../ShopList/ShopList"
       },
       {
+        name: '围棋',
+        imgurl: '../../images/First/wq.png', 
+        link: "../ShopList/ShopList"
+      },
+      {
+        name: '编程班',
+        imgurl: '../../images/First/bc.png',
+        link: "../ShopList/ShopList"
+      },
+      {
         name: '舞蹈',
-        imgurl: '../../images/First/wd.png', 
+        imgurl: '../../images/First/wd.png',
         link: "../ShopList/ShopList"
       },
       {
@@ -52,19 +62,19 @@ Page({
     busiList:[
       {
         link: "../ShopList/ShopList",
-        imgUrl:'../../images/First/1.jpg',
+        imgUrl:'../../images/shoplist/1.png',
         name: '商家A',
         intro: "One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
       }, 
       {
         link: "../ShopList/ShopList",
-        imgUrl: '../../images/First/2.jpg',
+        imgUrl: '../../images/shoplist/1.png',
         name: '商家B',
         intro: "One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
       }, 
       {
         link: "../ShopList/ShopList",
-        imgUrl: '../../images/First/3.jpg',
+        imgUrl: '../../images/shoplist/1.png',
         name: '商家C',
         intro:"One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
       }

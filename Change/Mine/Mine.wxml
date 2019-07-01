@@ -12,7 +12,6 @@
       </view>
     </block>
   </view>
-
   <!-- view2 -->
   <view class='Category'>
 
@@ -25,8 +24,18 @@
     </navigator>
   </block>
   </view>
-
-
+<!-- 分割线 -->
+<view class="container">
+  <view class="divLine"></view>
+</view>
+<!-- 分隔栏 -->
+<view>
+<text class='Separator'>我的功能</text>
+</view>
+<!-- 分割线 -->
+<view class="container">
+  <view class="divLine"></view>
+</view>
   <!-- view3 -->
   <view class="Category">
   <block wx:for="{{mItem}}" wx:key=''>
@@ -43,5 +52,5 @@
   </view>
   <wux-toast id="wux-toast" />
 <view>
-     <wux-button block type="stable" class='AboutUs_btn' bind:click="showToast">确认修改</wux-button>
+     <wux-button block type="stable" class='AboutUs_btn' bind:click="showToast">关于我们</wux-button>
 </view>

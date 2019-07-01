@@ -1,5 +1,7 @@
 {
   "navigationBarTitleText": "购买详情",
+      "navigationBarBackgroundColor": "#4169E1",
+      
   "usingComponents": {
     "wux-row": "../../dist/row/index",
     "wux-col": "../../dist/col/index",

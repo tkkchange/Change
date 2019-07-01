@@ -1,2 +1,16 @@
 @import "../components/searchBox/index.wxss";
 @import "../components/storeInfoBox/index.wxss";
+.divLine{
+ background: rgb(214, 214, 214);
+ width: 730rpx;
+ margin-left: 10rpx; 
+ margin-left: 10prx; 
+ height: 3rpx;
+}
+.Separator{
+  font-size: 35rpx;
+   font-style:italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

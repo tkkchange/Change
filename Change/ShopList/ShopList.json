@@ -1,5 +1,7 @@
 {
   "navigationBarTitleText": "店铺信息",
+      "navigationBarBackgroundColor": "#4169E1",
+      
   "usingComponents": {
     "secBox": "../components/searchBox/index",
     "storeIB": "../components/storeInfoBox/index"

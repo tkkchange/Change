@@ -1,5 +1,7 @@
 {
   "navigationBarTitleText": "商家详情",
+      "navigationBarBackgroundColor": "#4169E1",
+      
   "usingComponents": {
     "courIB": "../components/courInfoBox/index",
     "wux-toast": "../../dist/toast/index"

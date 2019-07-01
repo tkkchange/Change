@@ -29,7 +29,7 @@
   </view>
 
   <!--轮播图 -->
-  <view style='flex:1'>
+  <view style='position:fixed; bottom:0;width: 750rpx;'>
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" vertical="{{isVertical}}" duration="{{duration}}" circular='false'>
       <swiper-item wx:for="{{imgUrls}}">
         <image src="{{item}}" />

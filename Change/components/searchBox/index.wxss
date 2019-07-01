@@ -1,12 +1,16 @@
 /*搜索 开始*/
 .tit_seabox{
   width: calc( 100% - 64rpx );
-  background: #fff;
+  background: #4169E1;
   height: 60rpx;
   padding:20rpx 32rpx;
   display: flex;
   align-items: center;
   overflow: hidden;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+
+
 }
 .tit_seabox_bar{
     width: calc( 100% - 32rpx );

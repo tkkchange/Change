@@ -1,9 +1,0 @@
-<view>
-   <view class="viparea">
-     <text>会员规则></text>
-     <view class="vipcard">
-       <text>XX舞蹈房</text>
-       <progress percent="20"/>
-     </view>
-   </view>
-</view>

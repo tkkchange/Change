@@ -13,7 +13,7 @@
 		"checkInvalidKey": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.6.1",
+	"libVersion": "2.7.3",
 	"appid": "wx0ce73c1e167b8ca5",
 	"projectname": "Change",
 	"debugOptions": {

@@ -1,5 +1,6 @@
 {
   "navigationBarTitleText": "Change约课吧",
+    "navigationBarBackgroundColor": "#4169E1",
   "usingComponents": {
     "secBox": "../components/searchBox/index",
     "piBox": "../components/picInforBox/index"

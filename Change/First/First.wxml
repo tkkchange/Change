@@ -1,5 +1,8 @@
 <!-- 搜索框开始 -->
-    <secBox  searchstr=''/>
+<view class='AllView'>
+<secBox  searchstr=''/>
+</view>
+    
 <!-- 搜索框结束 -->
 
 <!-- 广告图片轮播开始 -->
@@ -14,7 +17,14 @@
          </block>  
 </swiper>
 <!-- 广告图片轮播结束 -->
-
+<!-- 分隔栏 -->
+<view>
+<text class='Separator'>热门类目</text>
+</view>
+<!-- 分割线 -->
+<view class="container">
+  <view class="divLine"></view>
+</view>
 <!-- 热门类目展示开始 -->
 <view class="Category">
   <block wx:for="{{mItem}}" wx:key=''>
@@ -27,7 +37,15 @@
   </block>
 </view>
 <!-- 热门类目展示结束 -->
+<!-- 分割线 -->
+<view class="container">
+  <view class="divLine"></view>
+</view>
 
+<!-- 分隔栏 -->
+<view>
+<text class='Separator'>商家列表</text>
+</view>
 <!-- 分割线 -->
 <view class="container">
   <view class="divLine"></view>

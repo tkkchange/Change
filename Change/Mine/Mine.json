@@ -1,5 +1,7 @@
 {
   "navigationBarTitleText": "我",
+      "navigationBarBackgroundColor": "#4169E1",
+      
   "usingComponents": {
     "wux-button": "../../dist/button/index",
     "wux-icon": "../../dist/icon/index",

@@ -1,5 +1,7 @@
 {
   "navigationBarTitleText": "收藏课程",
+      "navigationBarBackgroundColor": "#4169E1",
+      
   "usingComponents": {
     "wux-cell": "../../dist/cell/index"
   }

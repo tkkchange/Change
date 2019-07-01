@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "课程表",
+  "navigationBarBackgroundColor": "#4169E1",
+      
   "usingComponents": {}
 }

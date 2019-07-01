@@ -1,5 +1,7 @@
 {
   "navigationBarTitleText": "日历",
+      "navigationBarBackgroundColor": "#4169E1",
+      
   "usingComponents": {
     "calendar": "plugin://calendar/calendar",
     "wux-icon": "../../dist/icon/index",

@@ -78,7 +78,14 @@
   <button class='coupon-button' bindtap='showToast1'>立即领取优惠券</button>
 </view>
 <!-- 领取优惠券按钮结束 -->
-
+<!-- 分隔栏 -->
+<view>
+<text class='Separator'>所有课程</text>
+</view>
+<!-- 分割线 -->
+<view class="container">
+  <view class="divLine"></view>
+</view>
 <!-- 课程信息开始 -->
 <view>
   <block wx:for="{{cusInfo}}" wx:key="unique">

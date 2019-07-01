@@ -1,6 +1,10 @@
 .container{
   display: flex;
   flex-direction: row;
+  background-color: #4169E1;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+
 }
 
 .userinfo {
@@ -35,6 +39,7 @@
   width: 200rpx;
   font-size: 30rpx;
   align-self: center;
+  background-color: whitesmoke;
 }
 
 .layout_vertical{
@@ -70,6 +75,9 @@
   justify-content: center;
   font-size: 30rpx;
 }
+.btn1::after{
+  border: none;
+}
 .btn2{
   width: 170rpx;
   height: 130rpx;
@@ -97,5 +105,21 @@
 .AboutUs_btn{
  width:100%;
  position:fixed; 
- bottom:150; 
+ bottom:0; 
+}
+
+.divLine{
+ background: rgb(214, 214, 214);
+ width: 730rpx;
+ margin-left: 10rpx; 
+ margin-left: 10prx; 
+ height: 3rpx;
+}
+
+.Separator{
+  font-size: 35rpx;
+  font-style:italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
