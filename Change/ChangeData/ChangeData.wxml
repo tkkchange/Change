@@ -20,11 +20,9 @@
 
     
     <view >
+      
       <wux-cell hover-class="none">
-        <wux-input label="标   签:" />
-      </wux-cell>
-      <wux-cell hover-class="none">
-        <wux-textarea  autoHeight label="简   介:" maxlength='50'/>
+        <wux-textarea  autoHeight label="地 址:" maxlength='50'/>
       </wux-cell>
     </view>
 </wux-cell-group>
