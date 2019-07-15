@@ -1,4 +1,3 @@
-@import "../components/searchBox/index.wxss";
 @import "../components/picInforBox/index.wxss";
 /*-----------------*/
 .btn1{

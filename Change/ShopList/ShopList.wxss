@@ -1,4 +1,3 @@
-@import "../components/searchBox/index.wxss";
 @import "../components/storeInfoBox/index.wxss";
 .divLine{
  background: rgb(214, 214, 214);
