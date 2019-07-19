@@ -3,7 +3,7 @@
       "navigationBarBackgroundColor": "#4169E1",
       
   "usingComponents": {
-    "secBox": "../components/searchBox/index",
+    "wux-search-bar": "../../dist/search-bar/index",
     "storeIB": "../components/storeInfoBox/index"
   }
 }

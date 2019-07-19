@@ -4,6 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    value: '',
     /*图片轮播*/
     imgUrls: [
       {
@@ -55,6 +56,30 @@ Page({
         link: '../DetailShopList/DetailShopList'
       }
     ]
+  },
+  onChange(e) {
+    console.log('onChange', e)
+    this.setData({
+      value: e.detail.value,
+    })
+  },
+  onFocus(e) {
+    console.log('onFocus', e)
+  },
+  onBlur(e) {
+    console.log('onBlur', e)
+  },
+  onConfirm(e) {
+    console.log('onConfirm', e)
+  },
+  onClear(e) {
+    console.log('onClear', e)
+    this.setData({
+      value: '',
+    })
+  },
+  onCancel(e) {
+    console.log('onCancel', e)
   },
 
   /**

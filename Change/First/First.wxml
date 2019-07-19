@@ -1,14 +1,17 @@
 <!-- 搜索框开始 -->
-<view class='AllView'>
-<secBox  searchstr=''/>
+<view class="page">
+  <view class="page__bd">
+    <wux-search-bar clear maxlength="8" />
+  </view>
 </view>
+
     
 <!-- 搜索框结束 -->
 
 <!-- 广告图片轮播开始 -->
 <swiper indicator-dots="{{indicatorDots}}"
            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
-         <block wx:for="{{imgUrls}}" wx:key=''>  
+         <block wx:for="{{imgUrls}}" wx:key="unique">  
            <swiper-item>  
               <navigator url="{{item.link}}" hover-class="navigator-hover">  
                <image src="{{item.url}}" class="slide-image" width="355" height="150"/>  

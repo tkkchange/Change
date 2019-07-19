@@ -1,5 +1,9 @@
 <!-- 搜索框开始 -->
-    <secBox  searchstr=''/>
+<view class="page">
+  <view class="page__bd">
+    <wux-search-bar clear maxlength="8" />
+  </view>
+</view>
 <!-- 搜索框结束 -->
 
 <!-- 广告图片轮播开始 -->
