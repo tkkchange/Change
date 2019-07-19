@@ -7,7 +7,7 @@ Page({
     list: [{
       id: 'view',
       name: '课程1',
-      open: false,
+      open: true,
       pages: ['时间：', '地点：']
     }, {
       id: 'content',
@@ -57,15 +57,7 @@ Page({
 
   adddetail: function () {
     wx.navigateTo({
-
       url: '../Calendar/Calendar',
-
-      success: function (res) { },
-
-      fail: function (res) { },
-
-      complete: function (res) { },
-
     })
 
   },
@@ -73,10 +65,23 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-    
+  onLoad: function () {
+    var that = this;//=====注意此处，要用that 指代this=====
+    wx.request({
+      url: 'http://localhost/get.php', //服务器地址
+      method: 'get',// OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
+      data: {
+      },
+      header: {// 设置请求的 header
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        that.setData({ //======不能直接写this.setDate======
+          list: res.data, //在相应的wxml页面显示接收到的数据
+        });
+      }
+    })
   },
-
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
