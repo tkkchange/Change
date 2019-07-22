@@ -24,6 +24,13 @@
 <!--上下留白-->
 <wux-white-space size="large" />
 <wux-white-space size="large" />
+<block wx:for="{{result}}">
+<view>
+
+{{item.name}}
+
+</view>
+</block>
 <!--两翼留白-->
     <wux-wing-blank size="default">
     <!--原来的表格形式-->
