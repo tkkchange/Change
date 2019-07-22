@@ -11,7 +11,21 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    var th =this;
+    wx.request({
+      url: 'http://129.211.84.118:1005/PhpFiles/First.php',
+      method:'GET',
+      data:{},
+      header: {
+        'content-type': 'application/json'
+      },
+      success:function(res){
+        console.log(res);
+        th.setData({
+          result:res.data
+        })
+      }
+    })
   },
 
   /**
