@@ -1,31 +1,18 @@
 <view class='layout_vertical'>
-
-
   <view style='flex:1'>
-    <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+    <block wx:for="{{result}}">
       <view class="kind-list-item">
-
-        <view id="{{item.id}}" class ="kind-list-item-hd {{item.open ? 'kind-list-item-hd-show' : ''}}" bindtap="kindToggle">
-          <view class="kind-list-text">{{item.name}}</view>
-        </view>
-        
-        <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
-          <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
-            <block wx:for-items="{{item.pages}}" wx:for-item="page" wx:key="*item">
-              <navigator url="pages/{{page}}/{{page}}" class="navigator">
-                <view class="navigator-text">{{page}}</view>
-                <!-- icon -->
-              </navigator>
-            </block>
+          <view>
+          <view class="kind-list-item-hd">{{item.name}}</view>
+          <view class="kind-list-item-hd">{{item.CT}}</view>
+          <view class="kind-list-item-hd">{{item.add}}</view>
           </view>
-        </view>
-
       </view>
     </block>
   </view>
   <!--浮动按钮 -->
-  <view bindtap='adddetail'>
-      <image class="add_icon" src="../../images/icon/cal.png"></image>
+  <view bindtap='jumpTo'>
+    <image class="add_icon" src="../../images/icon/cal.png"></image>
   </view>
 
   <!--轮播图 -->

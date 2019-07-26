@@ -13,7 +13,9 @@ Page({
   onLoad: function (options) {
     var th =this;
     wx.request({
+
       url: 'http://129.211.84.118:80/PhpFiles/First.php',
+
       method:'GET',
       data:{},
       header: {
