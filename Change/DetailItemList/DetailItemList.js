@@ -34,6 +34,22 @@ Page({
     wx.setNavigationBarTitle({
       title: options.name
     })
+    //向数据库发送商家名
+    wx.request({
+      url: 'http://129.211.84.118:80/PhpFiles/DetailitemList.php',
+      method: "POST",
+      header: {
+        //传输接收数据的头
+        'content-type': 'application/x-www-form-urlencoded'
+      },
+      data: {
+        confirmname: options.name
+      },
+
+      success: function (res) {
+        console.log(res.data)
+      }
+    })
   },
 
   /**

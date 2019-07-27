@@ -118,6 +118,21 @@ Page({
       duration: 500,
       mask: true
     })
+    var th = this;
+    wx.request({
+      url: 'http://129.211.84.118:80/PhpFiles/First.php',
+      method: 'GET',
+      data: {},
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        console.log(res);
+        th.setData({
+          result: res.data
+        })
+      }
+    })
   },
 
   /**
