@@ -61,19 +61,19 @@ Page({
     /*推荐商家*/
     busiList:[
       {
-        link: "../ShopList/ShopList",
+        id: "",
         imgUrl:'../../images/shoplist/1.png',
         name: '商家A',
         intro: "One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
       }, 
       {
-        link: "../ShopList/ShopList",
+        id: "",
         imgUrl: '../../images/shoplist/1.png',
         name: '商家B',
         intro: "One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
       }, 
       {
-        link: "../ShopList/ShopList",
+        id: "",
         imgUrl: '../../images/shoplist/1.png',
         name: '商家C',
         intro:"One-Hour SC）的事业是立足综合集成高技术服务的现代服务业，也是世界唯一的高科技产品维修服务连锁综合服务运营商；"
@@ -96,7 +96,25 @@ Page({
     console.log('onBlur', e)
   },
   onConfirm(e) {
-    console.log('onConfirm', e)
+    wx.request({
+      url: 'http://129.211.84.118:80/PhpFiles/search.php',
+      method: 'GET',
+      data: {
+        name:e.detail.value
+      },
+      success: function (res) {
+        console.log('oc',res.data);
+        wx.redirectTo({
+          url: '../ShopList/ShopList',
+          success: function(res) {},
+          fail: function(res) {},
+          complete: function(res) {},
+        })
+      },
+      fail: function (res) {
+        console.log('f',res);
+      }
+    })
   },
   onClear(e) {
     console.log('onClear', e)

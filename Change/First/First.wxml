@@ -1,7 +1,7 @@
 <!-- 搜索框开始 -->
 <view class="page">
   <view class="page__bd">
-    <wux-search-bar clear maxlength="8" />
+    <wux-search-bar clear bind:confirm="onConfirm"/>
   </view>
 </view>
 
@@ -57,7 +57,7 @@
 <!-- 推荐商家开始 -->
 <view>
   <block wx:for="{{busiList}}" wx:key=''>
-    <navigator url="{{item.link}}">
+    <navigator url="">
       <piBox img="{{item.imgUrl}}" name="{{item.name}}" intro="{{item.intro}}"/>
     </navigator>
   </block>

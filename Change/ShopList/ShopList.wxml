@@ -18,14 +18,17 @@
          </block>  
 </swiper>
 <!-- 广告图片轮播结束 -->
+
 <!-- 分隔栏 -->
 <view>
 <text class='Separator'>商家列表</text>
 </view>
+
 <!-- 分割线 -->
 <view class="container">
   <view class="divLine"></view>
 </view>
+
 <!-- 店铺信息开始 -->
 <view>
   <block wx:for="{{bsnsInfo}}" wx:key="unique">
